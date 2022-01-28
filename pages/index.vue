@@ -1,8 +1,8 @@
 <template>
   <div class="bg-black">
     <div
-      class="fixed top-0 left-0 w-full z-30 nav-overwrapper transition-colors duration-500 bg-black"
       data-nav-wrapper=""
+      class="fixed top-0 left-0 w-full z-30 nav-overwrapper transition-colors duration-500"
       data-v-1adbb2d8=""
     >
       <div
@@ -10,14 +10,16 @@
         data-v-1adbb2d8=""
       >
         <a
-          class="logo font-light uppercase tracking-widest text-2xl lg:text-3xl text-white relative z-30 w-36 nuxt-link-active"
           href="/"
+          aria-current="page"
+          class="logo font-light uppercase tracking-widest text-2xl lg:text-3xl text-white relative z-30 w-36 nuxt-link-exact-active nuxt-link-active"
           data-v-1adbb2d8=""
           ><img
             src="/_nuxt/img/skira.48e7e63.svg"
             alt="Skira logo"
             data-v-1adbb2d8=""
         /></a>
+        <!---->
         <nav
           class="main-nav max-lg:w-full max-lg:h-screen max-lg:flex max-lg:absolute left-0 top-0 justify-center items-center max-lg:bg-black"
           data-v-1adbb2d8=""
@@ -28,60 +30,60 @@
           >
             <li class="main-nav-item flex items-center" data-v-1adbb2d8="">
               <a
-                class="text-xl tracking-wide font-light"
                 href="/profile"
                 data-link="Profile"
                 data-border-anim=""
+                class="text-xl tracking-wide font-light"
                 data-v-1adbb2d8=""
                 >Profile</a
               >
             </li>
             <li class="main-nav-item flex items-center" data-v-1adbb2d8="">
               <a
-                class="text-xl tracking-wide font-light nuxt-link-exact-active nuxt-link-active"
                 href="/projects"
                 data-link="Projects"
                 data-border-anim=""
+                class="text-xl tracking-wide font-light"
                 data-v-1adbb2d8=""
                 >Projects</a
               >
             </li>
             <li class="main-nav-item flex items-center" data-v-1adbb2d8="">
               <a
-                class="text-xl tracking-wide font-light"
                 href="/product-design"
                 data-link="Product Design"
                 data-border-anim=""
+                class="text-xl tracking-wide font-light"
                 data-v-1adbb2d8=""
                 >Product Design</a
               >
             </li>
             <li class="main-nav-item flex items-center" data-v-1adbb2d8="">
               <a
-                class="text-xl tracking-wide font-light"
                 href="/diary"
                 data-link="Diary"
                 data-border-anim=""
+                class="text-xl tracking-wide font-light"
                 data-v-1adbb2d8=""
                 >Diary</a
               >
             </li>
             <li class="main-nav-item flex items-center" data-v-1adbb2d8="">
               <a
-                class="text-xl tracking-wide font-light"
                 href="/press"
                 data-link="Press"
                 data-border-anim=""
+                class="text-xl tracking-wide font-light"
                 data-v-1adbb2d8=""
                 >Press</a
               >
             </li>
             <li class="main-nav-item flex items-center" data-v-1adbb2d8="">
               <a
-                class="text-xl tracking-wide font-light"
                 href="/contact"
                 data-link="Contact"
                 data-border-anim=""
+                class="text-xl tracking-wide font-light"
                 data-v-1adbb2d8=""
                 >Contact</a
               >
@@ -90,1350 +92,595 @@
         </nav>
       </div>
     </div>
-    <div data-v-a200718e="">
-      <div
-        class="projects-page bg-black text-white py-28 xl:py-36"
-        data-v-a200718e=""
+    <div class="bg-black text-white" data-v-50f1f4e2="">
+      <section
+        class="relative mb-12 lg:mb-16 grid-section lg:h-screen"
+        data-v-50f1f4e2=""
       >
-        <section data-v-a200718e="">
+        <div
+          class="container mx-auto max-lg:pr-0 lg:max-w-none flex flex-col lg:flex-row justify-center items-center h-full"
+          data-v-50f1f4e2=""
+        >
           <div
-            class="container mx-auto xl:px-0 lg:max-w-none xl:w-88/100 2xl:w-72/100 flex flex-col justify-center items-center text-white"
-            data-v-a200718e=""
+            class="w-full lg:w-2/5 lg:flex items-center flex-1 lg:max-w-xl lg:pr-14"
+            data-v-50f1f4e2=""
           >
+            <!---->
             <h1
-              class="text-mobile-wide blurred-text fullwidth-centered-text lg:text-5xl lg:tracking-insane font-light uppercase lg:mb-16 relative z-10"
-              style="
-                opacity: 1;
-                visibility: inherit;
-                color: white;
-                text-shadow: white 0 0 10px;
-              "
-              data-blurred-text=""
-              data-v-a200718e=""
-            >
-              Projects
-            </h1>
-            <div
-              class="w-full mx-auto flex justify-center relative pb-12 lg:pb-16"
+              data-main-title=""
+              class="main-title font-light text-4xl 1xl:text-6xl relative z-10 max-lg:mt-8 max-lg:max-w-sm"
+              data-v-50f1f4e2=""
               style="opacity: 1; visibility: inherit"
-              data-fade-in-el=""
-              data-v-a200718e=""
             >
-              <div class="filters" data-v-a200718e="">
-                <ul
-                  class="text-white list-none flex flex-wrap justify-center -mx-3"
-                  data-v-a200718e=""
+              We use the
+              <span class="underline-after" data-v-50f1f4e2="">invisible</span>
+              to benefit your well-being<br data-v-50f1f4e2="" />
+              <span
+                class="icon icon-arrow-down inline-block text-2xl max-lg:hidden"
+                data-v-50f1f4e2=""
+              ></span>
+            </h1>
+          </div>
+          <div data-v-50f1f4e2="" class="lg:w-3/5 lg:max-w-214">
+            <div data-v-50f1f4e2="">
+              <span
+                data-v-50f1f4e2=""
+                data-reveal-after=""
+                style="opacity: 1; visibility: inherit"
+                ><img
+                  data-v-50f1f4e2=""
+                  src="https://admin.skira.hr/wp-content/uploads/2021/07/matrix-det-4.jpg"
+                  alt="matrix-det-4"
+                  class="absolute w-full h-full object-cover z-0 top-0 left-0 lg:h-screen"
+                  style="display: none" /><img
+                  data-v-50f1f4e2=""
+                  src="https://admin.skira.hr/wp-content/uploads/2021/09/evolution-tower-moscow.jpg"
+                  alt="evolution tower moscow"
+                  class="absolute w-full h-full object-cover z-0 top-0 left-0 lg:h-screen"
+                  style="display: none" /><img
+                  data-v-50f1f4e2=""
+                  src="https://admin.skira.hr/wp-content/uploads/2021/08/alhambra.jpg"
+                  alt="alhambra"
+                  class="absolute w-full h-full object-cover z-0 top-0 left-0 lg:h-screen"
+                  style="display: none" /><img
+                  data-v-50f1f4e2=""
+                  src="https://admin.skira.hr/wp-content/uploads/2021/07/crveni-Mjesec-nad-Uljanikom-10x7_foto-Luka-Pretegiani-1.jpg"
+                  alt="crveni Mjesec nad Uljanikom 10x7_foto Luka Pretegiani"
+                  class="absolute w-full h-full object-cover z-0 top-0 left-0 lg:h-screen"
+                  style="display: none" /><img
+                  data-v-50f1f4e2=""
+                  src="https://admin.skira.hr/wp-content/uploads/2021/09/hendrix-bridge-zagreb-hendrixov-most-1.jpg"
+                  alt="hendrix bridge zagreb hendrixov most"
+                  class="absolute w-full h-full object-cover z-0 top-0 left-0 lg:h-screen"
+                  style="display: none" /><img
+                  data-v-50f1f4e2=""
+                  src="https://admin.skira.hr/wp-content/uploads/2021/09/eurasia-tunel.jpg"
+                  alt="eurasia tunel"
+                  class="absolute w-full h-full object-cover z-0 top-0 left-0 lg:h-screen"
+                  style="display: none" /><img
+                  data-v-50f1f4e2=""
+                  src="https://admin.skira.hr/wp-content/uploads/2021/09/four-seasons-1.jpg"
+                  alt="four seasons 1"
+                  class="absolute w-full h-full object-cover z-0 top-0 left-0 lg:h-screen" /><img
+                  data-v-50f1f4e2=""
+                  src="https://admin.skira.hr/wp-content/uploads/2021/12/dsc_9700_51716257152_o.jpg"
+                  alt="dsc_9700_51716257152_o"
+                  class="absolute w-full h-full object-cover z-0 top-0 left-0 lg:h-screen"
+                  style="display: none"
+              /></span>
+              <div
+                data-v-50f1f4e2=""
+                class="grid grid-flow-col grid-cols-4 grid-rows-2"
+              >
+                <div
+                  data-v-50f1f4e2=""
+                  data-dotted-square=""
+                  class="dotted-square grid-item lg:-ml-1 lg:-mt-1 flex items-center justify-center z-10"
+                  style="
+                    transform: translate(0, -0.5rem);
+                    opacity: 1;
+                    visibility: inherit;
+                  "
                 >
-                  <li class="px-3" data-v-a200718e="">
-                    <button
-                      class="active"
-                      data-border-anim=""
-                      data-v-a200718e=""
-                    >
-                      <span data-v-a200718e="">All</span>
-                    </button>
-                  </li>
-                  <li class="px-3" data-v-a200718e="">
-                    <button data-border-anim="" data-v-a200718e="">
-                      <span data-v-a200718e="">Exterior</span>
-                    </button>
-                  </li>
-                  <li class="px-3" data-v-a200718e="">
-                    <button data-border-anim="" data-v-a200718e="">
-                      <span data-v-a200718e="">Interior</span>
-                    </button>
-                  </li>
-                  <li class="px-3" data-v-a200718e="">
-                    <button data-border-anim="" data-v-a200718e="">
-                      <span data-v-a200718e="">Landscape Lighting</span>
-                    </button>
-                  </li>
-                  <li class="px-3" data-v-a200718e="">
-                    <button data-border-anim="" data-v-a200718e="">
-                      <span data-v-a200718e="">Light Art</span>
-                    </button>
-                  </li>
-                  <li class="px-3" data-v-a200718e="">
-                    <button data-border-anim="" data-v-a200718e="">
-                      <span data-v-a200718e="">Case studies</span>
-                    </button>
-                  </li>
-                </ul>
+                  <p
+                    data-v-50f1f4e2=""
+                    data-dotted-text=""
+                    class="uppercase text-item text-sm tracking-widest px-10 text-center"
+                  >
+                    Matrix
+                  </p>
+                </div>
+                <div
+                  data-v-50f1f4e2=""
+                  data-dotted-square=""
+                  class="dotted-square grid-item lg:-ml-1 lg:-mt-1 flex items-center justify-center z-10"
+                  style="
+                    transform: translate(0, -0.5rem);
+                    opacity: 1;
+                    visibility: inherit;
+                  "
+                >
+                  <p
+                    data-v-50f1f4e2=""
+                    data-dotted-text=""
+                    class="uppercase text-item text-sm tracking-widest px-10 text-center"
+                  >
+                    Evolution Tower
+                  </p>
+                </div>
+                <div
+                  data-v-50f1f4e2=""
+                  data-dotted-square=""
+                  class="dotted-square grid-item lg:-ml-1 lg:-mt-1 flex items-center justify-center z-10"
+                  style="
+                    transform: translate(0, -0.5rem);
+                    opacity: 1;
+                    visibility: inherit;
+                  "
+                >
+                  <p
+                    data-v-50f1f4e2=""
+                    data-dotted-text=""
+                    class="uppercase text-item text-sm tracking-widest px-10 text-center"
+                  >
+                    Hotel Alhambra
+                  </p>
+                </div>
+                <div
+                  data-v-50f1f4e2=""
+                  data-dotted-square=""
+                  class="dotted-square grid-item lg:-ml-1 lg:-mt-1 flex items-center justify-center z-10"
+                  style="
+                    transform: translate(0, -0.5rem);
+                    opacity: 1;
+                    visibility: inherit;
+                  "
+                >
+                  <p
+                    data-v-50f1f4e2=""
+                    data-dotted-text=""
+                    class="uppercase text-item text-sm tracking-widest px-10 text-center"
+                  >
+                    Lighting Giants
+                  </p>
+                </div>
+                <div
+                  data-v-50f1f4e2=""
+                  data-dotted-square=""
+                  class="dotted-square grid-item lg:-ml-1 lg:-mt-1 flex items-center justify-center z-10"
+                  style="
+                    transform: translate(0, -0.5rem);
+                    opacity: 1;
+                    visibility: inherit;
+                  "
+                >
+                  <p
+                    data-v-50f1f4e2=""
+                    data-dotted-text=""
+                    class="uppercase text-item text-sm tracking-widest px-10 text-center"
+                  >
+                    Hendrix Bridge
+                  </p>
+                </div>
+                <div
+                  data-v-50f1f4e2=""
+                  data-dotted-square=""
+                  class="dotted-square grid-item lg:-ml-1 lg:-mt-1 flex items-center justify-center z-10"
+                  style="
+                    transform: translate(0, -0.5rem);
+                    opacity: 1;
+                    visibility: inherit;
+                  "
+                >
+                  <p
+                    data-v-50f1f4e2=""
+                    data-dotted-text=""
+                    class="uppercase text-item text-sm tracking-widest px-10 text-center"
+                  >
+                    Eurasia Tunnel
+                  </p>
+                </div>
+                <div
+                  data-v-50f1f4e2=""
+                  data-dotted-square=""
+                  class="dotted-square grid-item lg:-ml-1 lg:-mt-1 flex items-center justify-center z-10 bg-black"
+                  style="
+                    transform: translate(0, -0.5rem);
+                    opacity: 1;
+                    visibility: inherit;
+                  "
+                >
+                  <p
+                    data-v-50f1f4e2=""
+                    data-dotted-text=""
+                    class="uppercase text-item text-sm tracking-widest px-10 text-center show"
+                  >
+                    Four Seasons Hotel
+                  </p>
+                </div>
+                <div
+                  data-v-50f1f4e2=""
+                  data-dotted-square=""
+                  class="dotted-square grid-item lg:-ml-1 lg:-mt-1 flex items-center justify-center z-10"
+                  style="
+                    transform: translate(0, -0.5rem);
+                    opacity: 1;
+                    visibility: inherit;
+                  "
+                >
+                  <p
+                    data-v-50f1f4e2=""
+                    data-dotted-text=""
+                    class="uppercase text-item text-sm tracking-widest px-10 text-center"
+                  >
+                    Zerostrasse
+                  </p>
+                </div>
               </div>
             </div>
           </div>
-        </section>
-        <section class="projects-section py-12 lg:py-16" data-v-a200718e="">
-          <div
-            class="container mx-auto lg:max-w-none xl:px-0 lg:w-93/100"
-            data-v-a200718e=""
-          >
-            <client-only>
-              <div v-masonry class="masonry-container">
-                <a
-                  v-for="(item, index) in 10"
-                  :key="index"
-                  class="masonry-item relative w-full md:w-1/2 lg:w-1/3 md:p-5 max-md:pb-10 exterior"
-                  href="#"
-                >
-                  <div class="overlay z-10" data-v-a200718e=""></div>
-                  <figure
-                    class="relative"
-                    style="padding-bottom: 66.75%"
-                    data-v-a200718e=""
-                  >
-                    <img
-                      alt="premantura 800 (1)"
-                      class="block w-full absolute top-0 left-0 right-0 lazy-img-fadein"
-                      src="https://admin.skira.hr/wp-content/uploads/2021/12/premantura-800-1.jpg"
-                    />
-                  </figure>
-                  <div
-                    class="dotted-square flex flex-col items-center justify-center z-10 w-54 h-54 bg-transparent absolute top-1/2 left-1/2 transform -translate-y-1/2 -translate-x-1/2"
-                    data-v-a200718e=""
-                  >
-                    <span
-                      class="font-light text-sm px-10 text-center project-info-title mt-5"
-                      data-v-a200718e=""
-                      ><span
-                        class="uppercase tracking-widest block mb-2"
-                        data-v-a200718e=""
-                      >
-                        Church Tower Premantura
-                      </span>
-                      <span
-                        class="italic inline-block opacity-0 invisible -ml-5 max-lg:hidden"
-                        data-v-a200718e=""
-                      >
-                        <span class="icon-plus mr-2" data-v-a200718e=""> </span>
-                        Click for more
-                      </span>
-                    </span>
-                  </div>
-                </a>
-              </div>
-            </client-only>
-            <!-- <div
-              class="masonry-container"
-              style="position: relative; height: 4780.42px"
-              data-v-a200718e=""
-            >
-              <figure
-                class="relative"
-                style="padding-bottom: 149.75%"
-                data-v-a200718e=""
-              >
-                <img
-                  class="block w-full absolute top-0 left-0 right-0 lazy-img-fadein"
-                  src="https://admin.skira.hr/wp-content/uploads/2021/12/zerostrasse-skira.jpg"
-                  alt="zerostrasse skira"
-                  data-v-a200718e=""
-                  data-src="https://admin.skira.hr/wp-content/uploads/2021/12/zerostrasse-skira.jpg"
-                />
-              </figure>
-              <div
-                class="dotted-square flex flex-col items-center justify-center z-10 w-54 h-54 bg-transparent absolute top-1/2 left-1/2 transform -translate-y-1/2 -translate-x-1/2"
-                data-v-a200718e=""
-              >
-                <span
-                  class="font-light text-sm px-10 text-center project-info-title mt-5"
-                  data-v-a200718e=""
-                  ><span
-                    class="uppercase tracking-widest block mb-2"
-                    data-v-a200718e=""
-                    >Zerostrasse</span
-                  ><span
-                    class="italic inline-block opacity-0 invisible -ml-5 max-lg:hidden"
-                    data-v-a200718e=""
-                    >Click for more
-                  </span></span
-                >
-              </div>
-              <figure
-                class="relative"
-                style="padding-bottom: 66.6667%"
-                data-v-a200718e=""
-              >
-                <img
-                  class="block w-full absolute top-0 left-0 right-0 lazy-img-fadein"
-                  src="https://admin.skira.hr/wp-content/uploads/2021/10/eden-800-2.jpg"
-                  alt="eden 800 2"
-                  data-v-a200718e=""
-                  data-src="https://admin.skira.hr/wp-content/uploads/2021/10/eden-800-2.jpg"
-                />
-              </figure>
-              <div
-                class="dotted-square flex flex-col items-center justify-center z-10 w-54 h-54 bg-transparent absolute top-1/2 left-1/2 transform -translate-y-1/2 -translate-x-1/2"
-                data-v-a200718e=""
-              >
-                <span
-                  class="font-light text-sm px-10 text-center project-info-title mt-5"
-                  data-v-a200718e=""
-                  ><span
-                    class="uppercase tracking-widest block mb-2"
-                    data-v-a200718e=""
-                    >Hotel Eden </span
-                  ><span
-                    class="italic inline-block opacity-0 invisible -ml-5 max-lg:hidden"
-                    data-v-a200718e=""
-                    >Click for more
-                  </span></span
-                >
-              </div>
-              <figure
-                class="relative"
-                style="padding-bottom: 66.625%"
-                data-v-a200718e=""
-              >
-                <img
-                  class="block w-full absolute top-0 left-0 right-0 lazy-img-fadein"
-                  src="https://admin.skira.hr/wp-content/uploads/2021/10/wellness-vitality-hotel-punta.jpg"
-                  alt="wellness vitality hotel punta"
-                  data-v-a200718e=""
-                  data-src="https://admin.skira.hr/wp-content/uploads/2021/10/wellness-vitality-hotel-punta.jpg"
-                />
-              </figure>
-              <div
-                class="dotted-square flex flex-col items-center justify-center z-10 w-54 h-54 bg-transparent absolute top-1/2 left-1/2 transform -translate-y-1/2 -translate-x-1/2"
-                data-v-a200718e=""
-              >
-                <span
-                  class="font-light text-sm px-10 text-center project-info-title mt-5"
-                  data-v-a200718e=""
-                  ><span
-                    class="uppercase tracking-widest block mb-2"
-                    data-v-a200718e=""
-                    >Vitality hotel Punta Wellness</span
-                  ><span
-                    class="italic inline-block opacity-0 invisible -ml-5 max-lg:hidden"
-                    data-v-a200718e=""
-                    >Click for more
-                  </span></span
-                >
-              </div>
-              <figure
-                class="relative"
-                style="padding-bottom: 150.0626%"
-                data-v-a200718e=""
-              >
-                <img
-                  class="block w-full absolute top-0 left-0 right-0 lazy-img-fadein"
-                  src="https://admin.skira.hr/wp-content/uploads/2021/10/Deltalight_Milano_pontaccio_Luca-Cioci_800.jpg"
-                  alt="Deltalight_Milano_pontaccio_Luca Cioci_800"
-                  data-v-a200718e=""
-                  data-src="https://admin.skira.hr/wp-content/uploads/2021/10/Deltalight_Milano_pontaccio_Luca-Cioci_800.jpg"
-                />
-              </figure>
-              <div
-                class="dotted-square flex flex-col items-center justify-center z-10 w-54 h-54 bg-transparent absolute top-1/2 left-1/2 transform -translate-y-1/2 -translate-x-1/2"
-                data-v-a200718e=""
-              >
-                <span
-                  class="font-light text-sm px-10 text-center project-info-title mt-5"
-                  data-v-a200718e=""
-                  ><span
-                    class="uppercase tracking-widest block mb-2"
-                    data-v-a200718e=""
-                    >Crivelli Pop up Garden</span
-                  ><span
-                    class="italic inline-block opacity-0 invisible -ml-5 max-lg:hidden"
-                    data-v-a200718e=""
-                    >Click for more
-                  </span></span
-                >
-              </div>
-              <figure
-                class="relative"
-                style="padding-bottom: 56.25%"
-                data-v-a200718e=""
-              >
-                <img
-                  class="block w-full absolute top-0 left-0 right-0 lazy-img-fadein"
-                  src="https://admin.skira.hr/wp-content/uploads/2021/10/Turnina-Tree-Rovinj.jpg"
-                  alt="Turnina Tree Rovinj"
-                  data-v-a200718e=""
-                  data-src="https://admin.skira.hr/wp-content/uploads/2021/10/Turnina-Tree-Rovinj.jpg"
-                />
-              </figure>
-              <div
-                class="dotted-square flex flex-col items-center justify-center z-10 w-54 h-54 bg-transparent absolute top-1/2 left-1/2 transform -translate-y-1/2 -translate-x-1/2"
-                data-v-a200718e=""
-              >
-                <span
-                  class="font-light text-sm px-10 text-center project-info-title mt-5"
-                  data-v-a200718e=""
-                  ><span
-                    class="uppercase tracking-widest block mb-2"
-                    data-v-a200718e=""
-                    >Turnina Tree</span
-                  ><span
-                    class="italic inline-block opacity-0 invisible -ml-5 max-lg:hidden"
-                    data-v-a200718e=""
-                    >Click for more
-                  </span></span
-                >
-              </div>
-              <figure
-                class="relative"
-                style="padding-bottom: 133.375%"
-                data-v-a200718e=""
-              >
-                <img
-                  class="block w-full absolute top-0 left-0 right-0 lazy-img-fadein"
-                  src="https://admin.skira.hr/wp-content/uploads/2021/09/iG_Lighthinking_cover-crop-LR.jpg"
-                  alt="Evolution Tower_Lighthinking_cover crop LR"
-                  data-v-a200718e=""
-                  data-src="https://admin.skira.hr/wp-content/uploads/2021/09/iG_Lighthinking_cover-crop-LR.jpg"
-                />
-              </figure>
-              <div
-                class="dotted-square flex flex-col items-center justify-center z-10 w-54 h-54 bg-transparent absolute top-1/2 left-1/2 transform -translate-y-1/2 -translate-x-1/2"
-                data-v-a200718e=""
-              >
-                <span
-                  class="font-light text-sm px-10 text-center project-info-title mt-5"
-                  data-v-a200718e=""
-                  ><span
-                    class="uppercase tracking-widest block mb-2"
-                    data-v-a200718e=""
-                    >Evolution Tower</span
-                  ><span
-                    class="italic inline-block opacity-0 invisible -ml-5 max-lg:hidden"
-                    data-v-a200718e=""
-                    >Click for more
-                  </span></span
-                >
-              </div>
-              <figure
-                class="relative"
-                style="padding-bottom: 66.6667%"
-                data-v-a200718e=""
-              >
-                <img
-                  class="block w-full absolute top-0 left-0 right-0 lazy-img-fadein"
-                  src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                  alt="SKIRA Boutique Hotel Alhambra foto Hrvoje Serdar (17)"
-                  data-v-a200718e=""
-                  data-src="https://admin.skira.hr/wp-content/uploads/2021/07/SKIRA-Boutique-Hotel-Alhambra-foto-Hrvoje-Serdar-17.jpg"
-                />
-              </figure>
-              <div
-                class="dotted-square flex flex-col items-center justify-center z-10 w-54 h-54 bg-transparent absolute top-1/2 left-1/2 transform -translate-y-1/2 -translate-x-1/2"
-                data-v-a200718e=""
-              >
-                <span
-                  class="font-light text-sm px-10 text-center project-info-title mt-5"
-                  data-v-a200718e=""
-                  ><span
-                    class="uppercase tracking-widest block mb-2"
-                    data-v-a200718e=""
-                    >Hotel Alhambra</span
-                  ><span
-                    class="italic inline-block opacity-0 invisible -ml-5 max-lg:hidden"
-                    data-v-a200718e=""
-                    >Click for more
-                  </span></span
-                >
-              </div>
-              <figure
-                class="relative"
-                style="padding-bottom: 75%"
-                data-v-a200718e=""
-              >
-                <img
-                  class="block w-full absolute top-0 left-0 right-0 lazy-img-fadein"
-                  src="https://admin.skira.hr/wp-content/uploads/2021/09/hotel-lempinski-skira.jpg"
-                  alt="hotel lempinski skira"
-                  data-v-a200718e=""
-                  data-src="https://admin.skira.hr/wp-content/uploads/2021/09/hotel-lempinski-skira.jpg"
-                />
-              </figure>
-              <div
-                class="dotted-square flex flex-col items-center justify-center z-10 w-54 h-54 bg-transparent absolute top-1/2 left-1/2 transform -translate-y-1/2 -translate-x-1/2"
-                data-v-a200718e=""
-              >
-                <span
-                  class="font-light text-sm px-10 text-center project-info-title mt-5"
-                  data-v-a200718e=""
-                  ><span
-                    class="uppercase tracking-widest block mb-2"
-                    data-v-a200718e=""
-                    >Hotel Kempinski Adriatic</span
-                  ><span
-                    class="italic inline-block opacity-0 invisible -ml-5 max-lg:hidden"
-                    data-v-a200718e=""
-                    >Click for more
-                  </span></span
-                >
-              </div>
-              <figure
-                class="relative"
-                style="padding-bottom: 66.625%"
-                data-v-a200718e=""
-              >
-                <img
-                  class="block w-full absolute top-0 left-0 right-0 lazy-img-fadein"
-                  src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                  alt="toll plaza eurasia 800"
-                  data-v-a200718e=""
-                  data-src="https://admin.skira.hr/wp-content/uploads/2021/09/toll-plaza-eurasia-800.jpg"
-                />
-              </figure>
-              <div
-                class="dotted-square flex flex-col items-center justify-center z-10 w-54 h-54 bg-transparent absolute top-1/2 left-1/2 transform -translate-y-1/2 -translate-x-1/2"
-                data-v-a200718e=""
-              >
-                <span
-                  class="font-light text-sm px-10 text-center project-info-title mt-5"
-                  data-v-a200718e=""
-                  ><span
-                    class="uppercase tracking-widest block mb-2"
-                    data-v-a200718e=""
-                    >Eurasia Tunnel</span
-                  ><span
-                    class="italic inline-block opacity-0 invisible -ml-5 max-lg:hidden"
-                    data-v-a200718e=""
-                    >Click for more
-                  </span></span
-                >
-              </div>
-              <figure
-                class="relative"
-                style="padding-bottom: 66.625%"
-                data-v-a200718e=""
-              >
-                <img
-                  class="block w-full absolute top-0 left-0 right-0 lazy-img-fadein"
-                  src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                  alt="pleternica 800"
-                  data-v-a200718e=""
-                  data-src="https://admin.skira.hr/wp-content/uploads/2021/09/pleternica-800.jpg"
-                />
-              </figure>
-              <div
-                class="dotted-square flex flex-col items-center justify-center z-10 w-54 h-54 bg-transparent absolute top-1/2 left-1/2 transform -translate-y-1/2 -translate-x-1/2"
-                data-v-a200718e=""
-              >
-                <span
-                  class="font-light text-sm px-10 text-center project-info-title mt-5"
-                  data-v-a200718e=""
-                  ><span
-                    class="uppercase tracking-widest block mb-2"
-                    data-v-a200718e=""
-                    >Multimedia Hall Pleternica</span
-                  ><span
-                    class="italic inline-block opacity-0 invisible -ml-5 max-lg:hidden"
-                    data-v-a200718e=""
-                    >Click for more
-                  </span></span
-                >
-              </div>
-              <figure
-                class="relative"
-                style="padding-bottom: 74.9648%"
-                data-v-a200718e=""
-              >
-                <img
-                  class="block w-full absolute top-0 left-0 right-0 lazy-img-fadein"
-                  src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                  alt="novamed 800"
-                  data-v-a200718e=""
-                  data-src="https://admin.skira.hr/wp-content/uploads/2021/09/novamed-800.jpg"
-                />
-              </figure>
-              <div
-                class="dotted-square flex flex-col items-center justify-center z-10 w-54 h-54 bg-transparent absolute top-1/2 left-1/2 transform -translate-y-1/2 -translate-x-1/2"
-                data-v-a200718e=""
-              >
-                <span
-                  class="font-light text-sm px-10 text-center project-info-title mt-5"
-                  data-v-a200718e=""
-                  ><span
-                    class="uppercase tracking-widest block mb-2"
-                    data-v-a200718e=""
-                    >Novamed </span
-                  ><span
-                    class="italic inline-block opacity-0 invisible -ml-5 max-lg:hidden"
-                    data-v-a200718e=""
-                    >Click for more
-                  </span></span
-                >
-              </div>
-              <figure
-                class="relative"
-                style="padding-bottom: 66.6667%"
-                data-v-a200718e=""
-              >
-                <img
-                  class="block w-full absolute top-0 left-0 right-0 lazy-img-fadein"
-                  src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                  alt="tudjman_zagreb skira"
-                  data-v-a200718e=""
-                  data-src="https://admin.skira.hr/wp-content/uploads/2021/10/tudjman_zagreb-skira.jpg"
-                />
-              </figure>
-              <div
-                class="dotted-square flex flex-col items-center justify-center z-10 w-54 h-54 bg-transparent absolute top-1/2 left-1/2 transform -translate-y-1/2 -translate-x-1/2"
-                data-v-a200718e=""
-              >
-                <span
-                  class="font-light text-sm px-10 text-center project-info-title mt-5"
-                  data-v-a200718e=""
-                  ><span
-                    class="uppercase tracking-widest block mb-2"
-                    data-v-a200718e=""
-                    >Monument to the President Tuđman</span
-                  ><span
-                    class="italic inline-block opacity-0 invisible -ml-5 max-lg:hidden"
-                    data-v-a200718e=""
-                    >Click for more
-                  </span></span
-                >
-              </div>
-              <figure
-                class="relative"
-                style="padding-bottom: 56.25%"
-                data-v-a200718e=""
-              >
-                <img
-                  class="block w-full absolute top-0 left-0 right-0 lazy-img-fadein"
-                  src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                  alt="four seasons hotel"
-                  data-v-a200718e=""
-                  data-src="https://admin.skira.hr/wp-content/uploads/2021/09/four-seasons-1-Copy.jpg"
-                />
-              </figure>
-              <div
-                class="dotted-square flex flex-col items-center justify-center z-10 w-54 h-54 bg-transparent absolute top-1/2 left-1/2 transform -translate-y-1/2 -translate-x-1/2"
-                data-v-a200718e=""
-              >
-                <span
-                  class="font-light text-sm px-10 text-center project-info-title mt-5"
-                  data-v-a200718e=""
-                  ><span
-                    class="uppercase tracking-widest block mb-2"
-                    data-v-a200718e=""
-                    >Four Seasons Hotel </span
-                  ><span
-                    class="italic inline-block opacity-0 invisible -ml-5 max-lg:hidden"
-                    data-v-a200718e=""
-                    >Click for more
-                  </span></span
-                >
-              </div>
-              <figure
-                class="relative"
-                style="padding-bottom: 114.2651%"
-                data-v-a200718e=""
-              >
-                <img
-                  class="block w-full absolute top-0 left-0 right-0 lazy-img-fadein"
-                  src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                  alt="Skira_photo Foto Festival Labin 3 (2)"
-                  data-v-a200718e=""
-                  data-src="https://admin.skira.hr/wp-content/uploads/2021/09/Skira_photo-Foto-Festival-Labin-3-2.jpg"
-                />
-              </figure>
-              <div
-                class="dotted-square flex flex-col items-center justify-center z-10 w-54 h-54 bg-transparent absolute top-1/2 left-1/2 transform -translate-y-1/2 -translate-x-1/2"
-                data-v-a200718e=""
-              >
-                <span
-                  class="font-light text-sm px-10 text-center project-info-title mt-5"
-                  data-v-a200718e=""
-                  ><span
-                    class="uppercase tracking-widest block mb-2"
-                    data-v-a200718e=""
-                    >Mining Shaft Labin</span
-                  ><span
-                    class="italic inline-block opacity-0 invisible -ml-5 max-lg:hidden"
-                    data-v-a200718e=""
-                    >Click for more
-                  </span></span
-                >
-              </div>
-              <figure
-                class="relative"
-                style="padding-bottom: 133.9576%"
-                data-v-a200718e=""
-              >
-                <img
-                  class="block w-full absolute top-0 left-0 right-0 lazy-img-fadein"
-                  src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                  alt="SKIRA_IGUZZINI_LOMBARDI-VALLAURI_3"
-                  data-v-a200718e=""
-                  data-src="https://admin.skira.hr/wp-content/uploads/2021/09/SKIRA_IGUZZINI_LOMBARDI-VALLAURI_3-1.jpg"
-                />
-              </figure>
-              <div
-                class="dotted-square flex flex-col items-center justify-center z-10 w-54 h-54 bg-transparent absolute top-1/2 left-1/2 transform -translate-y-1/2 -translate-x-1/2"
-                data-v-a200718e=""
-              >
-                <span
-                  class="font-light text-sm px-10 text-center project-info-title mt-5"
-                  data-v-a200718e=""
-                  ><span
-                    class="uppercase tracking-widest block mb-2"
-                    data-v-a200718e=""
-                    >Hooked Up</span
-                  ><span
-                    class="italic inline-block opacity-0 invisible -ml-5 max-lg:hidden"
-                    data-v-a200718e=""
-                    >Click for more
-                  </span></span
-                >
-              </div>
-              <figure
-                class="relative"
-                style="padding-bottom: 66.5832%"
-                data-v-a200718e=""
-              >
-                <img
-                  class="block w-full absolute top-0 left-0 right-0 lazy-img-fadein"
-                  src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                  alt="mestrovic pavilion dzamija"
-                  data-v-a200718e=""
-                  data-src="https://admin.skira.hr/wp-content/uploads/2021/09/mestrovic-pavilion-800.jpg"
-                />
-              </figure>
-              <div
-                class="dotted-square flex flex-col items-center justify-center z-10 w-54 h-54 bg-transparent absolute top-1/2 left-1/2 transform -translate-y-1/2 -translate-x-1/2"
-                data-v-a200718e=""
-              >
-                <span
-                  class="font-light text-sm px-10 text-center project-info-title mt-5"
-                  data-v-a200718e=""
-                  ><span
-                    class="uppercase tracking-widest block mb-2"
-                    data-v-a200718e=""
-                    >Mestrovic Pavilion</span
-                  ><span
-                    class="italic inline-block opacity-0 invisible -ml-5 max-lg:hidden"
-                    data-v-a200718e=""
-                    >Click for more
-                  </span></span
-                >
-              </div>
-              <figure
-                class="relative"
-                style="padding-bottom: 72%"
-                data-v-a200718e=""
-              >
-                <img
-                  class="block w-full absolute top-0 left-0 right-0 lazy-img-fadein"
-                  src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                  alt="giants-thumb"
-                  data-v-a200718e=""
-                  data-src="https://admin.skira.hr/wp-content/uploads/2021/07/giants-thumb.jpg"
-                />
-              </figure>
-              <div
-                class="dotted-square flex flex-col items-center justify-center z-10 w-54 h-54 bg-transparent absolute top-1/2 left-1/2 transform -translate-y-1/2 -translate-x-1/2"
-                data-v-a200718e=""
-              >
-                <span
-                  class="font-light text-sm px-10 text-center project-info-title mt-5"
-                  data-v-a200718e=""
-                  ><span
-                    class="uppercase tracking-widest block mb-2"
-                    data-v-a200718e=""
-                    >Lighting Giants</span
-                  ><span
-                    class="italic inline-block opacity-0 invisible -ml-5 max-lg:hidden"
-                    data-v-a200718e=""
-                    >Click for more
-                  </span></span
-                >
-              </div>
-              <figure
-                class="relative"
-                style="padding-bottom: 75%"
-                data-v-a200718e=""
-              >
-                <img
-                  class="block w-full absolute top-0 left-0 right-0 lazy-img-fadein"
-                  src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                  alt="swimming pool (4)"
-                  data-v-a200718e=""
-                  data-src="https://admin.skira.hr/wp-content/uploads/2021/09/swimming-pool-4.jpg"
-                />
-              </figure>
-              <div
-                class="dotted-square flex flex-col items-center justify-center z-10 w-54 h-54 bg-transparent absolute top-1/2 left-1/2 transform -translate-y-1/2 -translate-x-1/2"
-                data-v-a200718e=""
-              >
-                <span
-                  class="font-light text-sm px-10 text-center project-info-title mt-5"
-                  data-v-a200718e=""
-                  ><span
-                    class="uppercase tracking-widest block mb-2"
-                    data-v-a200718e=""
-                    >Swimming Pool Pula</span
-                  ><span
-                    class="italic inline-block opacity-0 invisible -ml-5 max-lg:hidden"
-                    data-v-a200718e=""
-                    >Click for more
-                  </span></span
-                >
-              </div>
-              <figure
-                class="relative"
-                style="padding-bottom: 58.5%"
-                data-v-a200718e=""
-              >
-                <img
-                  class="block w-full absolute top-0 left-0 right-0 lazy-img-fadein"
-                  src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                  alt="lone 800 1"
-                  data-v-a200718e=""
-                  data-src="https://admin.skira.hr/wp-content/uploads/2021/10/lone-800-1.jpg"
-                />
-              </figure>
-              <div
-                class="dotted-square flex flex-col items-center justify-center z-10 w-54 h-54 bg-transparent absolute top-1/2 left-1/2 transform -translate-y-1/2 -translate-x-1/2"
-                data-v-a200718e=""
-              >
-                <span
-                  class="font-light text-sm px-10 text-center project-info-title mt-5"
-                  data-v-a200718e=""
-                  ><span
-                    class="uppercase tracking-widest block mb-2"
-                    data-v-a200718e=""
-                    >Design Hotel Lone</span
-                  ><span
-                    class="italic inline-block opacity-0 invisible -ml-5 max-lg:hidden"
-                    data-v-a200718e=""
-                    >Click for more
-                  </span></span
-                >
-              </div>
-              <figure
-                class="relative"
-                style="padding-bottom: 74.9064%"
-                data-v-a200718e=""
-              >
-                <img
-                  class="block w-full absolute top-0 left-0 right-0 lazy-img-fadein"
-                  src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                  alt="residential"
-                  data-v-a200718e=""
-                  data-src="https://admin.skira.hr/wp-content/uploads/2021/09/residential.jpg"
-                />
-              </figure>
-              <div
-                class="dotted-square flex flex-col items-center justify-center z-10 w-54 h-54 bg-transparent absolute top-1/2 left-1/2 transform -translate-y-1/2 -translate-x-1/2"
-                data-v-a200718e=""
-              >
-                <span
-                  class="font-light text-sm px-10 text-center project-info-title mt-5"
-                  data-v-a200718e=""
-                  ><span
-                    class="uppercase tracking-widest block mb-2"
-                    data-v-a200718e=""
-                    >Residential Projects</span
-                  ><span
-                    class="italic inline-block opacity-0 invisible -ml-5 max-lg:hidden"
-                    data-v-a200718e=""
-                    >Click for more
-                  </span></span
-                >
-              </div>
-              <figure
-                class="relative"
-                style="padding-bottom: 68.2896%"
-                data-v-a200718e=""
-              >
-                <img
-                  class="block w-full absolute top-0 left-0 right-0 lazy-img-fadein"
-                  src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                  alt="biennale italian pavilion 800"
-                  data-v-a200718e=""
-                  data-src="https://admin.skira.hr/wp-content/uploads/2021/10/biennale-italian-pavilion-800.jpg"
-                />
-              </figure>
-              <div
-                class="dotted-square flex flex-col items-center justify-center z-10 w-54 h-54 bg-transparent absolute top-1/2 left-1/2 transform -translate-y-1/2 -translate-x-1/2"
-                data-v-a200718e=""
-              >
-                <span
-                  class="font-light text-sm px-10 text-center project-info-title mt-5"
-                  data-v-a200718e=""
-                  ><span
-                    class="uppercase tracking-widest block mb-2"
-                    data-v-a200718e=""
-                    >Biennale d'Arte Italian Pavillion</span
-                  ><span
-                    class="italic inline-block opacity-0 invisible -ml-5 max-lg:hidden"
-                    data-v-a200718e=""
-                    >Click for more
-                  </span></span
-                >
-              </div>
-              <figure
-                class="relative"
-                style="padding-bottom: 66.6667%"
-                data-v-a200718e=""
-              >
-                <img
-                  class="block w-full absolute top-0 left-0 right-0 lazy-img-fadein"
-                  src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                  alt="Parco della Luna"
-                  data-v-a200718e=""
-                  data-src="https://admin.skira.hr/wp-content/uploads/2021/09/VICO_22.jpg"
-                />
-              </figure>
-              <div
-                class="dotted-square flex flex-col items-center justify-center z-10 w-54 h-54 bg-transparent absolute top-1/2 left-1/2 transform -translate-y-1/2 -translate-x-1/2"
-                data-v-a200718e=""
-              >
-                <span
-                  class="font-light text-sm px-10 text-center project-info-title mt-5"
-                  data-v-a200718e=""
-                  ><span
-                    class="uppercase tracking-widest block mb-2"
-                    data-v-a200718e=""
-                    >Parco della Luna</span
-                  ><span
-                    class="italic inline-block opacity-0 invisible -ml-5 max-lg:hidden"
-                    data-v-a200718e=""
-                    >Click for more
-                  </span></span
-                >
-              </div>
-              <figure
-                class="relative"
-                style="padding-bottom: 66.75%"
-                data-v-a200718e=""
-              >
-                <img
-                  class="block w-full absolute top-0 left-0 right-0 lazy-img-fadein"
-                  src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                  alt="biennale pergola 800"
-                  data-v-a200718e=""
-                  data-src="https://admin.skira.hr/wp-content/uploads/2021/09/biennale-pergola-800.jpg"
-                />
-              </figure>
-              <div
-                class="dotted-square flex flex-col items-center justify-center z-10 w-54 h-54 bg-transparent absolute top-1/2 left-1/2 transform -translate-y-1/2 -translate-x-1/2"
-                data-v-a200718e=""
-              >
-                <span
-                  class="font-light text-sm px-10 text-center project-info-title mt-5"
-                  data-v-a200718e=""
-                  ><span
-                    class="uppercase tracking-widest block mb-2"
-                    data-v-a200718e=""
-                    >Venice Biennale of Architecture </span
-                  ><span
-                    class="italic inline-block opacity-0 invisible -ml-5 max-lg:hidden"
-                    data-v-a200718e=""
-                    >Click for more
-                  </span></span
-                >
-              </div>
-              <figure
-                class="relative"
-                style="padding-bottom: 66.75%"
-                data-v-a200718e=""
-              >
-                <img
-                  class="block w-full absolute top-0 left-0 right-0 lazy-img-fadein"
-                  src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                  alt="postojnska jama 800"
-                  data-v-a200718e=""
-                  data-src="https://admin.skira.hr/wp-content/uploads/2021/09/postojnska-jama-800.jpg"
-                />
-              </figure>
-              <div
-                class="dotted-square flex flex-col items-center justify-center z-10 w-54 h-54 bg-transparent absolute top-1/2 left-1/2 transform -translate-y-1/2 -translate-x-1/2"
-                data-v-a200718e=""
-              >
-                <span
-                  class="font-light text-sm px-10 text-center project-info-title mt-5"
-                  data-v-a200718e=""
-                  ><span
-                    class="uppercase tracking-widest block mb-2"
-                    data-v-a200718e=""
-                    >Postojna Cave</span
-                  ><span
-                    class="italic inline-block opacity-0 invisible -ml-5 max-lg:hidden"
-                    data-v-a200718e=""
-                    >Click for more
-                  </span></span
-                >
-              </div>
-              <figure
-                class="relative"
-                style="padding-bottom: 67.8333%"
-                data-v-a200718e=""
-              >
-                <img
-                  class="block w-full absolute top-0 left-0 right-0 lazy-img-fadein"
-                  src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                  alt="matrix"
-                  data-v-a200718e=""
-                  data-src="https://admin.skira.hr/wp-content/uploads/2021/07/matrix.jpg"
-                />
-              </figure>
-              <div
-                class="dotted-square flex flex-col items-center justify-center z-10 w-54 h-54 bg-transparent absolute top-1/2 left-1/2 transform -translate-y-1/2 -translate-x-1/2"
-                data-v-a200718e=""
-              >
-                <span
-                  class="font-light text-sm px-10 text-center project-info-title mt-5"
-                  data-v-a200718e=""
-                  ><span
-                    class="uppercase tracking-widest block mb-2"
-                    data-v-a200718e=""
-                    >Matrix</span
-                  ><span
-                    class="italic inline-block opacity-0 invisible -ml-5 max-lg:hidden"
-                    data-v-a200718e=""
-                    >Click for more
-                  </span></span
-                >
-              </div>
-              <figure
-                class="relative"
-                style="padding-bottom: 66.6667%"
-                data-v-a200718e=""
-              >
-                <img
-                  class="block w-full absolute top-0 left-0 right-0 lazy-img-fadein"
-                  src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                  alt="technical museum facade"
-                  data-v-a200718e=""
-                  data-src="https://admin.skira.hr/wp-content/uploads/2021/09/technical-museum-facade.jpg"
-                />
-              </figure>
-              <div
-                class="dotted-square flex flex-col items-center justify-center z-10 w-54 h-54 bg-transparent absolute top-1/2 left-1/2 transform -translate-y-1/2 -translate-x-1/2"
-                data-v-a200718e=""
-              >
-                <span
-                  class="font-light text-sm px-10 text-center project-info-title mt-5"
-                  data-v-a200718e=""
-                  ><span
-                    class="uppercase tracking-widest block mb-2"
-                    data-v-a200718e=""
-                    >Technical Museum Nikola Tesla</span
-                  ><span
-                    class="italic inline-block opacity-0 invisible -ml-5 max-lg:hidden"
-                    data-v-a200718e=""
-                    >Click for more
-                  </span></span
-                >
-              </div>
-              <figure
-                class="relative"
-                style="padding-bottom: 123.25%"
-                data-v-a200718e=""
-              >
-                <img
-                  class="block w-full absolute top-0 left-0 right-0 lazy-img-fadein"
-                  src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                  alt="adelma 800"
-                  data-v-a200718e=""
-                  data-src="https://admin.skira.hr/wp-content/uploads/2021/09/adelma-800.jpg"
-                />
-              </figure>
-              <div
-                class="dotted-square flex flex-col items-center justify-center z-10 w-54 h-54 bg-transparent absolute top-1/2 left-1/2 transform -translate-y-1/2 -translate-x-1/2"
-                data-v-a200718e=""
-              >
-                <span
-                  class="font-light text-sm px-10 text-center project-info-title mt-5"
-                  data-v-a200718e=""
-                  ><span
-                    class="uppercase tracking-widest block mb-2"
-                    data-v-a200718e=""
-                    >Captain's Villa Rouge</span
-                  ><span
-                    class="italic inline-block opacity-0 invisible -ml-5 max-lg:hidden"
-                    data-v-a200718e=""
-                    >Click for more
-                  </span></span
-                >
-              </div>
-              <figure
-                class="relative"
-                style="padding-bottom: 101.8333%"
-                data-v-a200718e=""
-              >
-                <img
-                  class="block w-full absolute top-0 left-0 right-0 lazy-img-fadein"
-                  src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                  alt="eggo-thumb"
-                  data-v-a200718e=""
-                  data-src="https://admin.skira.hr/wp-content/uploads/2021/07/eggo-thumb.jpg"
-                />
-              </figure>
-              <div
-                class="dotted-square flex flex-col items-center justify-center z-10 w-54 h-54 bg-transparent absolute top-1/2 left-1/2 transform -translate-y-1/2 -translate-x-1/2"
-                data-v-a200718e=""
-              >
-                <span
-                  class="font-light text-sm px-10 text-center project-info-title mt-5"
-                  data-v-a200718e=""
-                  ><span
-                    class="uppercase tracking-widest block mb-2"
-                    data-v-a200718e=""
-                    >EggOtrick</span
-                  ><span
-                    class="italic inline-block opacity-0 invisible -ml-5 max-lg:hidden"
-                    data-v-a200718e=""
-                    >Click for more
-                  </span></span
-                >
-              </div>
-              <figure
-                class="relative"
-                style="padding-bottom: 75%"
-                data-v-a200718e=""
-              >
-                <img
-                  class="block w-full absolute top-0 left-0 right-0 lazy-img-fadein"
-                  src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                  alt="vila sheherezade"
-                  data-v-a200718e=""
-                  data-src="https://admin.skira.hr/wp-content/uploads/2021/09/vila-sheherezade-Copy.jpg"
-                />
-              </figure>
-              <div
-                class="dotted-square flex flex-col items-center justify-center z-10 w-54 h-54 bg-transparent absolute top-1/2 left-1/2 transform -translate-y-1/2 -translate-x-1/2"
-                data-v-a200718e=""
-              >
-                <span
-                  class="font-light text-sm px-10 text-center project-info-title mt-5"
-                  data-v-a200718e=""
-                  ><span
-                    class="uppercase tracking-widest block mb-2"
-                    data-v-a200718e=""
-                    >Villa Sheherezade</span
-                  ><span
-                    class="italic inline-block opacity-0 invisible -ml-5 max-lg:hidden"
-                    data-v-a200718e=""
-                    >Click for more
-                  </span></span
-                >
-              </div>
-              <figure
-                class="relative"
-                style="padding-bottom: 56.25%"
-                data-v-a200718e=""
-              >
-                <img
-                  class="block w-full absolute top-0 left-0 right-0 lazy-img-fadein"
-                  src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                  alt="hendrix bridge zagreb hendrixov most 800"
-                  data-v-a200718e=""
-                  data-src="https://admin.skira.hr/wp-content/uploads/2021/09/hendrix-bridge-zagreb-hendrixov-most-800.jpg"
-                />
-              </figure>
-              <div
-                class="dotted-square flex flex-col items-center justify-center z-10 w-54 h-54 bg-transparent absolute top-1/2 left-1/2 transform -translate-y-1/2 -translate-x-1/2"
-                data-v-a200718e=""
-              >
-                <span
-                  class="font-light text-sm px-10 text-center project-info-title mt-5"
-                  data-v-a200718e=""
-                  ><span
-                    class="uppercase tracking-widest block mb-2"
-                    data-v-a200718e=""
-                    >Hendrix Bridge</span
-                  ><span
-                    class="italic inline-block opacity-0 invisible -ml-5 max-lg:hidden"
-                    data-v-a200718e=""
-                    >Click for more
-                  </span></span
-                >
-              </div>
-              <figure
-                class="relative"
-                style="padding-bottom: 72%"
-                data-v-a200718e=""
-              >
-                <img
-                  class="block w-full absolute top-0 left-0 right-0 lazy-img-fadein"
-                  src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                  alt="cikat-thumb"
-                  data-v-a200718e=""
-                  data-src="https://admin.skira.hr/wp-content/uploads/2021/07/cikat-thumb.jpg"
-                />
-              </figure>
-              <div
-                class="dotted-square flex flex-col items-center justify-center z-10 w-54 h-54 bg-transparent absolute top-1/2 left-1/2 transform -translate-y-1/2 -translate-x-1/2"
-                data-v-a200718e=""
-              >
-                <span
-                  class="font-light text-sm px-10 text-center project-info-title mt-5"
-                  data-v-a200718e=""
-                  ><span
-                    class="uppercase tracking-widest block mb-2"
-                    data-v-a200718e=""
-                    >Čikat Bay</span
-                  ><span
-                    class="italic inline-block opacity-0 invisible -ml-5 max-lg:hidden"
-                    data-v-a200718e=""
-                    >Click for more
-                  </span></span
-                >
-              </div>
-              <figure
-                class="relative"
-                style="padding-bottom: 111.75%"
-                data-v-a200718e=""
-              >
-                <img
-                  class="block w-full absolute top-0 left-0 right-0 lazy-img-fadein"
-                  src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                  alt="tsum 800"
-                  data-v-a200718e=""
-                  data-src="https://admin.skira.hr/wp-content/uploads/2021/09/tsum-800.jpg"
-                />
-              </figure>
-              <div
-                class="dotted-square flex flex-col items-center justify-center z-10 w-54 h-54 bg-transparent absolute top-1/2 left-1/2 transform -translate-y-1/2 -translate-x-1/2"
-                data-v-a200718e=""
-              >
-                <span
-                  class="font-light text-sm px-10 text-center project-info-title mt-5"
-                  data-v-a200718e=""
-                  ><span
-                    class="uppercase tracking-widest block mb-2"
-                    data-v-a200718e=""
-                    >TSUM</span
-                  ><span
-                    class="italic inline-block opacity-0 invisible -ml-5 max-lg:hidden"
-                    data-v-a200718e=""
-                    >Click for more
-                  </span></span
-                >
-              </div>
-              <figure
-                class="relative"
-                style="padding-bottom: 66.625%"
-                data-v-a200718e=""
-              >
-                <img
-                  class="block w-full absolute top-0 left-0 right-0 lazy-img-fadein"
-                  src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                  alt="bellevue - Copy"
-                  data-v-a200718e=""
-                  data-src="https://admin.skira.hr/wp-content/uploads/2021/09/bellevue-Copy.jpg"
-                />
-              </figure>
-              <div
-                class="dotted-square flex flex-col items-center justify-center z-10 w-54 h-54 bg-transparent absolute top-1/2 left-1/2 transform -translate-y-1/2 -translate-x-1/2"
-                data-v-a200718e=""
-              >
-                <span
-                  class="font-light text-sm px-10 text-center project-info-title mt-5"
-                  data-v-a200718e=""
-                  ><span
-                    class="uppercase tracking-widest block mb-2"
-                    data-v-a200718e=""
-                    >Hotel Bellevue</span
-                  ><span
-                    class="italic inline-block opacity-0 invisible -ml-5 max-lg:hidden"
-                    data-v-a200718e=""
-                    >Click for more
-                  </span></span
-                >
-              </div>
-              <figure
-                class="relative"
-                style="padding-bottom: 68.75%"
-                data-v-a200718e=""
-              >
-                <img
-                  class="block w-full absolute top-0 left-0 right-0 lazy-img-fadein"
-                  src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                  alt="OLYMPUS DIGITAL CAMERA"
-                  data-v-a200718e=""
-                  data-src="https://admin.skira.hr/wp-content/uploads/2021/09/house-of-light-pula-skira-11.jpg"
-                />
-              </figure>
-              <div
-                class="dotted-square flex flex-col items-center justify-center z-10 w-54 h-54 bg-transparent absolute top-1/2 left-1/2 transform -translate-y-1/2 -translate-x-1/2"
-                data-v-a200718e=""
-              >
-                <span
-                  class="font-light text-sm px-10 text-center project-info-title mt-5"
-                  data-v-a200718e=""
-                  ><span
-                    class="uppercase tracking-widest block mb-2"
-                    data-v-a200718e=""
-                    >House of Light</span
-                  ><span
-                    class="italic inline-block opacity-0 invisible -ml-5 max-lg:hidden"
-                    data-v-a200718e=""
-                    >Click for more
-                  </span></span
-                >
-              </div>
-              <figure
-                class="relative"
-                style="padding-bottom: 131.75%"
-                data-v-a200718e=""
-              >
-                <img
-                  class="block w-full absolute top-0 left-0 right-0 lazy-img-fadein"
-                  src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                  alt="vap"
-                  data-v-a200718e=""
-                  data-src="https://admin.skira.hr/wp-content/uploads/2021/07/vap.jpg"
-                />
-              </figure>
-              <div
-                class="dotted-square flex flex-col items-center justify-center z-10 w-54 h-54 bg-transparent absolute top-1/2 left-1/2 transform -translate-y-1/2 -translate-x-1/2"
-                data-v-a200718e=""
-              >
-                <span
-                  class="font-light text-sm px-10 text-center project-info-title mt-5"
-                  data-v-a200718e=""
-                  ><span
-                    class="uppercase tracking-widest block mb-2"
-                    data-v-a200718e=""
-                    >Verudela Art Park </span
-                  ><span
-                    class="italic inline-block opacity-0 invisible -ml-5 max-lg:hidden"
-                    data-v-a200718e=""
-                    >Click for more
-                  </span></span
-                >
-              </div>
-              <figure
-                class="relative"
-                style="padding-bottom: 103%"
-                data-v-a200718e=""
-              >
-                <img
-                  class="block w-full absolute top-0 left-0 right-0 lazy-img-fadein"
-                  src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                  alt="twisted-thumb"
-                  data-v-a200718e=""
-                  data-src="https://admin.skira.hr/wp-content/uploads/2021/07/twisted-thumb.jpg"
-                />
-              </figure>
-              <div
-                class="dotted-square flex flex-col items-center justify-center z-10 w-54 h-54 bg-transparent absolute top-1/2 left-1/2 transform -translate-y-1/2 -translate-x-1/2"
-                data-v-a200718e=""
-              >
-                <span
-                  class="font-light text-sm px-10 text-center project-info-title mt-5"
-                  data-v-a200718e=""
-                  ><span
-                    class="uppercase tracking-widest block mb-2"
-                    data-v-a200718e=""
-                    >Twisted</span
-                  ><span
-                    class="italic inline-block opacity-0 invisible -ml-5 max-lg:hidden"
-                    data-v-a200718e=""
-                    >Click for more
-                  </span></span
-                >
-              </div>
-              <figure
-                class="relative"
-                style="padding-bottom: 103%"
-                data-v-a200718e=""
-              >
-                <img
-                  class="block w-full absolute top-0 left-0 right-0 lazy-img-fadein"
-                  src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                  alt="roundabout-thumb"
-                  data-v-a200718e=""
-                  data-src="https://admin.skira.hr/wp-content/uploads/2021/07/roundabout-thumb.jpg"
-                />
-              </figure>
-              <div
-                class="dotted-square flex flex-col items-center justify-center z-10 w-54 h-54 bg-transparent absolute top-1/2 left-1/2 transform -translate-y-1/2 -translate-x-1/2"
-                data-v-a200718e=""
-              >
-                <span
-                  class="font-light text-sm px-10 text-center project-info-title mt-5"
-                  data-v-a200718e=""
-                  ><span
-                    class="uppercase tracking-widest block mb-2"
-                    data-v-a200718e=""
-                    >Roundabout</span
-                  ><span
-                    class="italic inline-block opacity-0 invisible -ml-5 max-lg:hidden"
-                    data-v-a200718e=""
-                    >Click for more
-                  </span></span
-                >
-              </div>
-              <figure
-                class="relative"
-                style="padding-bottom: 124.2197%"
-                data-v-a200718e=""
-              >
-                <img
-                  class="block w-full absolute top-0 left-0 right-0 lazy-img-fadein"
-                  src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                  alt="rident"
-                  data-v-a200718e=""
-                  data-src="https://admin.skira.hr/wp-content/uploads/2021/09/Skira-Ridnet-detail.jpg"
-                />
-              </figure>
-              <div
-                class="dotted-square flex flex-col items-center justify-center z-10 w-54 h-54 bg-transparent absolute top-1/2 left-1/2 transform -translate-y-1/2 -translate-x-1/2"
-                data-v-a200718e=""
-              >
-                <span
-                  class="font-light text-sm px-10 text-center project-info-title mt-5"
-                  data-v-a200718e=""
-                  ><span
-                    class="uppercase tracking-widest block mb-2"
-                    data-v-a200718e=""
-                    >Rident </span
-                  ><span
-                    class="italic inline-block opacity-0 invisible -ml-5 max-lg:hidden"
-                    data-v-a200718e=""
-                    >Click for more
-                  </span></span
-                >
-              </div>
-            </div> -->
-          </div>
-        </section>
-      </div>
-      <footer
-        data-v-81cbe394=""
-        data-v-a200718e=""
-        class="bg-black text-white pb-8 pt-14 lg:pt-20"
+        </div>
+      </section>
+      <section
+        class="second-section relative py-12 lg:py-16"
+        data-v-50f1f4e2=""
       >
         <div
-          data-v-81cbe394=""
+          data-fade-in-wrapper=""
+          class="container mx-auto lg:max-w-none flex flex-col justify-center items-center text-white overflow-hidden"
+          data-v-50f1f4e2=""
+        >
+          <h2
+            data-blurred-text=""
+            class="text-mobile-wide blurred-text fullwidth-centered-text lg:text-5xl lg:tracking-insane font-light uppercase lg:mb-16"
+            data-v-50f1f4e2=""
+            style="opacity: 0; visibility: hidden; color: transparent"
+          >
+            Innovation
+          </h2>
+          <div
+            class="w-full mx-auto flex flex-col items-center justify-center"
+            data-v-50f1f4e2=""
+          >
+            <div
+              data-fade-in-el=""
+              class="paragraph py-12 lg:mr-5/10 lg:ml-1/10"
+              data-v-50f1f4e2=""
+              style="opacity: 0; visibility: hidden"
+            >
+              <div class="max-w-md" data-v-50f1f4e2="">
+                <h3
+                  class="text-sm tracking-widest mb-6 uppercase"
+                  data-v-50f1f4e2=""
+                >
+                  360° ARCHITECTURAL LIGHTING
+                </h3>
+                <p
+                  class="text-xl font-light leading-relaxed"
+                  data-v-50f1f4e2=""
+                >
+                  We are experts in architectural lighting. SKIRA sustainable
+                  and adaptive design strategy considers the people, the
+                  architecture, the implementation of light and shadows and the
+                  environment as influential factors covered by our holistic
+                  approach to lighting and product design.
+                </p>
+              </div>
+            </div>
+            <div
+              data-fade-in-el=""
+              class="paragraph lg:w-1/2 lg:ml-5/10 lg:pl-16"
+              data-v-50f1f4e2=""
+              style="opacity: 0; visibility: hidden"
+            >
+              <p
+                class="font-light text-4xl lg:text-6xl lg:leading-normal max-w-md"
+                data-v-50f1f4e2=""
+              >
+                Blending Art and Science of Light
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section
+        data-fade-in-el=""
+        class="pb-12 lg:pb-16 relative design-section lg:-mt-48"
+        data-v-50f1f4e2=""
+        style="opacity: 0; visibility: hidden"
+      >
+        <div
+          class="container relative max-lg:mx-auto lg:h-screen lg:max-h-full-nav-bigger lg:max-w-none flex lg:flex-row flex-col items-center"
+          data-v-50f1f4e2=""
+        >
+          <div data-v-50f1f4e2="">
+            <span data-v-50f1f4e2="" class="prod-images-wrapper"
+              ><img
+                data-v-50f1f4e2=""
+                src="https://admin.skira.hr/wp-content/uploads/2021/07/trick.jpg"
+                alt="trick"
+                class="absolute z-0 top-1/2 left-0 transform -translate-y-1/2 lg:max-h-full-nav-bigger max-w-xl 2xl:max-w-2xl w-1/2 object-cover" /><img
+                data-v-50f1f4e2=""
+                src="https://admin.skira.hr/wp-content/uploads/2021/07/polesano-1-1.jpg"
+                alt="polesano (1)"
+                class="absolute z-0 top-1/2 left-0 transform -translate-y-1/2 lg:max-h-full-nav-bigger max-w-xl 2xl:max-w-2xl w-1/2 object-cover"
+                style="display: none" /><img
+                data-v-50f1f4e2=""
+                src="https://admin.skira.hr/wp-content/uploads/2021/07/nime.jpg"
+                alt="nime"
+                class="absolute z-0 top-1/2 left-0 transform -translate-y-1/2 lg:max-h-full-nav-bigger max-w-xl 2xl:max-w-2xl w-1/2 object-cover"
+                style="display: none"
+            /></span>
+          </div>
+          <div
+            data-fade-in-el=""
+            class="lg:w-1/2 lg:pl-16 lg:order-2"
+            data-v-50f1f4e2=""
+            style="opacity: 0; visibility: hidden"
+          >
+            <div class="max-w-md" data-v-50f1f4e2="">
+              <h3
+                class="text-sm tracking-widest mb-6 uppercase"
+                data-v-50f1f4e2=""
+              >
+                Product design
+              </h3>
+              <p class="text-xl font-light leading-relaxed" data-v-50f1f4e2="">
+                SKIRA services include the innovative, groundbreaking, out of
+                the box approach to designing architectural lighting luminaires
+                and their lighting effects. We are always in search of creative,
+                efficient and sustainable ideas.
+              </p>
+            </div>
+          </div>
+          <!---->
+          <div
+            data-v-50f1f4e2=""
+            class="lg:w-1/2 lg:flex lg:flex-col justify-center items-start"
+          >
+            <div
+              data-v-50f1f4e2=""
+              class="w-full max-w-2xl 2xl:max-w-3xl flex flex-col items-end"
+            >
+              <div data-v-50f1f4e2="">
+                <div
+                  data-v-50f1f4e2=""
+                  class="flex flex-col justify-center items-center"
+                >
+                  <div
+                    data-v-50f1f4e2=""
+                    data-dotted-square2=""
+                    class="dotted-square lg:w-54 lg:h-54 grid-item lg:-mt-1 flex items-center justify-center z-10 bg-black"
+                  >
+                    <p
+                      data-v-50f1f4e2=""
+                      data-dotted-text2=""
+                      class="uppercase text-sm tracking-widest px-10 text-center visible"
+                    >
+                      Trick
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div data-v-50f1f4e2="">
+                <div
+                  data-v-50f1f4e2=""
+                  class="flex flex-col justify-center items-center"
+                >
+                  <div
+                    data-v-50f1f4e2=""
+                    data-dotted-square2=""
+                    class="dotted-square lg:w-54 lg:h-54 grid-item lg:-mt-1 flex items-center justify-center z-10"
+                  >
+                    <p
+                      data-v-50f1f4e2=""
+                      data-dotted-text2=""
+                      class="uppercase text-sm tracking-widest px-10 text-center"
+                    >
+                      Polesano
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div data-v-50f1f4e2="">
+                <div
+                  data-v-50f1f4e2=""
+                  class="flex flex-col justify-center items-center"
+                >
+                  <div
+                    data-v-50f1f4e2=""
+                    data-dotted-square2=""
+                    class="dotted-square lg:w-54 lg:h-54 grid-item lg:-mt-1 flex items-center justify-center z-10"
+                  >
+                    <p
+                      data-v-50f1f4e2=""
+                      data-dotted-text2=""
+                      class="uppercase text-sm tracking-widest px-10 text-center"
+                    >
+                      Nime
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section
+        class="pt-12 lg:pt-16 relative why-section grid-section"
+        data-v-50f1f4e2=""
+      >
+        <h2
+          data-blurred-text=""
+          class="text-mobile-wide blurred-text text-center lg:text-5xl lg:tracking-insane font-light uppercase relative z-20 max-w-3xl mx-auto max-lg:mb-10"
+          data-v-50f1f4e2=""
+          style="opacity: 0; visibility: hidden; color: transparent"
+        >
+          Why Skira
+        </h2>
+        <div
+          class="container mx-auto max-w-none max-lg:h-112 max-lg:px-0 lg:h-screen lg:max-h-full-nav-bigger lg:-mt-20 relative"
+          data-v-50f1f4e2=""
+        >
+          <!---->
+          <div
+            data-v-50f1f4e2=""
+            class="flex justify-center items-center h-full"
+          >
+            <span data-v-50f1f4e2="" data-reveal-after=""
+              ><img
+                data-v-50f1f4e2=""
+                src="https://admin.skira.hr/wp-content/uploads/2021/10/Dizajn-bez-naslova-27-1.jpg"
+                alt="eurasia detail"
+                class="absolute w-full h-full object-cover z-0 bottom-0 left-0 lg:max-h-full-nav-bigger"
+                style="display: none" /><img
+                data-v-50f1f4e2=""
+                src="https://admin.skira.hr/wp-content/uploads/2021/09/trick-e1631700581415.jpg"
+                alt="trick"
+                class="absolute w-full h-full object-cover z-0 bottom-0 left-0 lg:max-h-full-nav-bigger"
+                style="display: none" /><img
+                data-v-50f1f4e2=""
+                src="https://admin.skira.hr/wp-content/uploads/2021/09/skira_kruzni01.jpg"
+                alt="skira_kruzni01"
+                class="absolute w-full h-full object-cover z-0 bottom-0 left-0 lg:max-h-full-nav-bigger"
+                style="display: none" /><img
+                data-v-50f1f4e2=""
+                src="https://admin.skira.hr/wp-content/uploads/2021/09/medusa-light-dean-skira.jpg"
+                alt="medusa light dean skira"
+                class="absolute w-full h-full object-cover z-0 bottom-0 left-0 lg:max-h-full-nav-bigger"
+                style="display: none"
+            /></span>
+            <div data-v-50f1f4e2="" class="lg:w-1/2 flex justify-end">
+              <div
+                data-v-50f1f4e2=""
+                class="grid grid-flow-col grid-cols-2 grid-rows-2 max-w-107 mr-1/10"
+              >
+                <div
+                  data-v-50f1f4e2=""
+                  data-dotted-square=""
+                  class="dotted-square grid-item lg:-ml-1 lg:-mt-1 flex items-center justify-center z-10"
+                >
+                  <p
+                    data-v-50f1f4e2=""
+                    data-dotted-text=""
+                    class="uppercase text-item text-sm tracking-widest px-10 text-center"
+                  >
+                    Out of the Box
+                  </p>
+                </div>
+                <div
+                  data-v-50f1f4e2=""
+                  data-dotted-square=""
+                  class="dotted-square grid-item lg:-ml-1 lg:-mt-1 flex items-center justify-center z-10"
+                >
+                  <p
+                    data-v-50f1f4e2=""
+                    data-dotted-text=""
+                    class="uppercase text-item text-sm tracking-widest px-10 text-center"
+                  >
+                    Design Thinking
+                  </p>
+                </div>
+                <div
+                  data-v-50f1f4e2=""
+                  data-dotted-square=""
+                  class="dotted-square grid-item lg:-ml-1 lg:-mt-1 flex items-center justify-center z-10"
+                >
+                  <p
+                    data-v-50f1f4e2=""
+                    data-dotted-text=""
+                    class="uppercase text-item text-sm tracking-widest px-10 text-center"
+                  >
+                    Innovation
+                  </p>
+                </div>
+                <div
+                  data-v-50f1f4e2=""
+                  data-dotted-square=""
+                  class="dotted-square grid-item lg:-ml-1 lg:-mt-1 flex items-center justify-center z-10"
+                >
+                  <p
+                    data-v-50f1f4e2=""
+                    data-dotted-text=""
+                    class="uppercase text-item text-sm tracking-widest px-10 text-center"
+                  >
+                    Creativity
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div data-v-50f1f4e2="" class="lg:w-1/2 relative">
+              <span data-v-50f1f4e2="" data-reveal-after="" class="lg:max-w-107"
+                ><p
+                  data-v-50f1f4e2=""
+                  class="absolute top-1/2 left-16 transform -translate-y-1/2 z-10 max-w-lg text-2xl 2xl:text-3xl font-light"
+                  style="display: none"
+                >
+                  The real voyage of discovery does not consist of seeking new
+                  landscapes but in having new eyes.
+                </p>
+                <p
+                  data-v-50f1f4e2=""
+                  class="absolute top-1/2 left-16 transform -translate-y-1/2 z-10 max-w-lg text-2xl 2xl:text-3xl font-light"
+                  style="display: none"
+                >
+                  Skira provides high-quality solutions for your specific
+                  project.
+                </p>
+                <p
+                  data-v-50f1f4e2=""
+                  class="absolute top-1/2 left-16 transform -translate-y-1/2 z-10 max-w-lg text-2xl 2xl:text-3xl font-light"
+                  style="display: none"
+                >
+                  By understanding light as an infinite voyager, we have
+                  developed skills to capture its journey.
+                </p>
+                <p
+                  data-v-50f1f4e2=""
+                  class="absolute top-1/2 left-16 transform -translate-y-1/2 z-10 max-w-lg text-2xl 2xl:text-3xl font-light"
+                  style="display: none"
+                >
+                  Bending principles of conventional approach.
+                </p></span
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer
+        class="bg-black text-white pb-8 pt-14 lg:pt-20"
+        data-v-81cbe394=""
+        data-v-50f1f4e2=""
+      >
+        <div
           class="container mx-auto lg:max-w-none xl:pl-6/100 2xl:pl-14/100 flex flex-wrap max-lg:flex-col"
+          data-v-81cbe394=""
         >
           <div
-            data-v-81cbe394=""
             class="flex flex-col lg:flex-row lg:items-center lg:w-49/100 2xl:w-44/100 lg:pb-20"
+            data-v-81cbe394=""
           >
             <h2
-              data-v-81cbe394=""
               class="font-light text-4xl lg:text-6xl max-w-40 lg:max-w-xs"
+              data-v-81cbe394=""
             >
               Connect with us
             </h2>
           </div>
           <div
-            data-v-81cbe394=""
             class="flex items-center max-lg:justify-center lg:pb-20"
+            data-v-81cbe394=""
           >
             <a
               id="footerCircle"
-              data-v-81cbe394=""
               href="/contact"
               class="relative my-14 lg:my-0 lg:transform lg:-translate-x-1/2 w-64 h-64"
+              data-v-81cbe394=""
               ><div
-                data-v-43ed9b8e=""
-                data-v-81cbe394=""
                 class="transform transition-transform duration-500 hover:scale-105"
                 style="width: 100%; height: 100%; overflow: hidden"
+                data-v-43ed9b8e=""
+                data-v-81cbe394=""
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -1448,7 +695,7 @@
                   "
                 >
                   <defs>
-                    <clipPath id="__lottie_element_12">
+                    <clipPath id="__lottie_element_2">
                       <rect width="250" height="250" x="0" y="0"></rect>
                     </clipPath>
                     <filter id="glow">
@@ -1465,7 +712,7 @@
                       </feMerge>
                     </filter>
                   </defs>
-                  <g clip-path="url(#__lottie_element_12)">
+                  <g clip-path="url(#__lottie_element_2)">
                     <g
                       transform="matrix(0,1.7196099758148193,-1.7196099758148193,0,242.67291259765625,7.32708740234375)"
                       opacity="1"
@@ -1483,7 +730,7 @@
                           stroke="rgb(255,255,255)"
                           stroke-opacity="1"
                           stroke-width="1"
-                          d=" M65.93000030517578,0 C65.93000030517578,36.4119987487793 36.4119987487793,65.93000030517578 0,65.93000030517578 C-36.4119987487793,65.93000030517578 -65.93000030517578,36.4119987487793 -65.93000030517578,0 C-65.93000030517578,-36.4119987487793 -36.4119987487793,-65.93000030517578 0,-65.93000030517578 C36.4119987487793,-65.93000030517578 65.93000030517578,-36.4119987487793 65.93000030517578,0z"
+                          d="M0 0"
                           style="filter: url('#glow')"
                         ></path>
                       </g>
@@ -1492,81 +739,81 @@
                 </svg>
               </div>
               <div
-                data-v-81cbe394=""
                 class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 uppercase font-light tracking-widest flex items-center justify-center whitespace-nowrap pointer-events-none"
+                data-v-81cbe394=""
               >
                 <span data-v-81cbe394=""
                   >Let's <br data-v-81cbe394="" />connect
                 </span>
                 <span
-                  data-v-81cbe394=""
                   class="icon-arrow-right ml-4 text-xs"
+                  data-v-81cbe394=""
                 ></span></div
             ></a>
           </div>
-          <div data-v-81cbe394="" class="2xl:pt-4 w-full">
+          <div class="2xl:pt-4 w-full" data-v-81cbe394="">
             <div
-              data-v-81cbe394=""
               class="xl:flex xl:justify-between text-md max-xl:max-w-screen-md max-xl:mx-auto"
+              data-v-81cbe394=""
             >
               <div
-                data-v-81cbe394=""
                 class="flex justify-between flex-wrap items-baseline mb-12 lg:mb-0"
+                data-v-81cbe394=""
               >
                 <a
-                  data-v-81cbe394=""
                   href="https://www.instagram.com/skiralighting/"
                   target="_blank"
                   data-border-anim=""
                   class="uppercase"
+                  data-v-81cbe394=""
                   >Instagram</a
                 >
                 <a
-                  data-v-81cbe394=""
                   href="https://www.facebook.com/SkiraLighting/"
                   target="_blank"
                   data-border-anim=""
                   class="uppercase mx-10"
+                  data-v-81cbe394=""
                   >Facebook</a
                 >
                 <a
-                  data-v-81cbe394=""
                   href="https://hr.linkedin.com/company/skira-lighting"
                   data-border-anim=""
                   target="_blank"
                   class="uppercase mr-10"
+                  data-v-81cbe394=""
                   >Linkedin</a
                 >
                 <a
-                  data-v-81cbe394=""
                   href="https://skira.us6.list-manage.com/subscribe?u=0a8ae91cffd71d63ce6df7e17&amp;id=d033109405"
                   target="_blank"
                   class="uppercase tracking-widest font-light border border-white px-4 leading-none h-7 flex items-center hover:bg-white hover:text-black transition-colors"
+                  data-v-81cbe394=""
                   >Newsletter</a
                 >
               </div>
-              <div data-v-81cbe394="" class="flex flex-wrap leading-loose">
+              <div class="flex flex-wrap leading-loose" data-v-81cbe394="">
                 <a
-                  data-v-81cbe394=""
                   href="https://admin.skira.hr/wp-content/uploads/2021/09/Skira_Company-Profile.pdf"
                   target="_blank"
                   data-border-anim=""
                   class="mr-10"
+                  data-v-81cbe394=""
                   >Download Company Profile</a
                 >
                 <a
-                  data-v-81cbe394=""
                   href="/cookies-policy"
-                  class="mr-10"
                   data-border-anim=""
+                  class="mr-10"
+                  data-v-81cbe394=""
                   >Cookies policy</a
                 >
-                <span data-v-81cbe394="" data-border-anim="" class="mr-10"
+                <span data-border-anim="" class="mr-10" data-v-81cbe394=""
                   >Design by:
                   <a
-                    data-v-81cbe394=""
                     href="https://www.north2.net/"
                     target="_blank"
+                    data-v-81cbe394=""
                     >North2</a
                   ></span
                 >
@@ -1577,6 +824,18 @@
         </div>
       </footer>
     </div>
+    <section class="cookieControl">
+      <!---->
+      <button aria-label="Cookie control" class="cookieControl__ControlButton">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+          <path
+            fill="currentColor"
+            d="M510.52 255.82c-69.97-.85-126.47-57.69-126.47-127.86-70.17 0-127-56.49-127.86-126.45-27.26-4.14-55.13.3-79.72 12.82l-69.13 35.22a132.221 132.221 0 00-57.79 57.81l-35.1 68.88a132.645 132.645 0 00-12.82 80.95l12.08 76.27a132.521 132.521 0 0037.16 72.96l54.77 54.76a132.036 132.036 0 0072.71 37.06l76.71 12.15c27.51 4.36 55.7-.11 80.53-12.76l69.13-35.21a132.273 132.273 0 0057.79-57.81l35.1-68.88c12.56-24.64 17.01-52.58 12.91-79.91zM176 368c-17.67 0-32-14.33-32-32s14.33-32 32-32 32 14.33 32 32-14.33 32-32 32zm32-160c-17.67 0-32-14.33-32-32s14.33-32 32-32 32 14.33 32 32-14.33 32-32 32zm160 128c-17.67 0-32-14.33-32-32s14.33-32 32-32 32 14.33 32 32-14.33 32-32 32z"
+          ></path>
+        </svg>
+      </button>
+      <!---->
+    </section>
   </div>
 </template>
 
@@ -2845,70 +2104,70 @@ export default {
 .nuxt-progress-failed {
   background-color: red;
 }
-.nav-wrapper[data-v-1adbb2d8] {
+.nav-wrapper {
   width: 100%;
 }
 @media (max-width: 1023px) {
-  .nav-wrapper[data-v-1adbb2d8] {
+  .nav-wrapper {
     padding-left: 2.5rem;
     padding-right: 2.5rem;
   }
 }
 @media (max-width: 639px) {
-  .nav-wrapper[data-v-1adbb2d8] {
+  .nav-wrapper {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
   }
 }
 @media (min-width: 1024px) {
-  .nav-wrapper[data-v-1adbb2d8] {
+  .nav-wrapper {
     width: 100%;
     padding-right: 1.5rem;
     padding-left: 1.5rem;
   }
   @media (min-width: 480px) {
-    .nav-wrapper[data-v-1adbb2d8] {
+    .nav-wrapper {
       max-width: 480px;
     }
   }
   @media (min-width: 640px) {
-    .nav-wrapper[data-v-1adbb2d8] {
+    .nav-wrapper {
       max-width: 640px;
       padding-right: 2rem;
       padding-left: 2rem;
     }
   }
   @media (min-width: 768px) {
-    .nav-wrapper[data-v-1adbb2d8] {
+    .nav-wrapper {
       max-width: 768px;
     }
   }
   @media (min-width: 1024px) {
-    .nav-wrapper[data-v-1adbb2d8] {
+    .nav-wrapper {
       max-width: 1024px;
     }
   }
   @media (min-width: 1280px) {
-    .nav-wrapper[data-v-1adbb2d8] {
+    .nav-wrapper {
       max-width: 1280px;
     }
   }
   @media (min-width: 1366px) {
-    .nav-wrapper[data-v-1adbb2d8] {
+    .nav-wrapper {
       max-width: 1366px;
     }
   }
   @media (min-width: 1536px) {
-    .nav-wrapper[data-v-1adbb2d8] {
+    .nav-wrapper {
       max-width: 1536px;
     }
   }
   @media (min-width: 1900px) {
-    .nav-wrapper[data-v-1adbb2d8] {
+    .nav-wrapper {
       max-width: 1900px;
     }
   }
-  .nav-wrapper[data-v-1adbb2d8] {
+  .nav-wrapper {
     margin-left: auto;
     margin-right: auto;
     width: 93%;
@@ -2918,29 +2177,29 @@ export default {
   }
 }
 @media (min-width: 1280px) {
-  .nav-wrapper[data-v-1adbb2d8] {
+  .nav-wrapper {
     padding-left: 0px;
     padding-right: 0px;
   }
 }
-.main-nav[data-v-1adbb2d8] {
+.main-nav {
   display: flex;
   align-items: center;
 }
-.main-nav-item[data-v-1adbb2d8] {
+.main-nav-item {
   margin-left: 1rem;
   margin-right: 1rem;
 }
-.main-nav-item a[data-v-1adbb2d8] {
+.main-nav-item a {
   --tw-text-opacity: 1;
   color: rgba(255, 255, 255, var(--tw-text-opacity));
 }
 @media (max-width: 1023px) {
-  .dotted-square[data-v-a200718e] {
+  .dotted-square {
     background-image: none;
   }
 }
-footer .icon-arrow-right[data-v-81cbe394]:before {
+footer .icon-arrow-right:before {
   font-weight: 700;
 }
 </style>
