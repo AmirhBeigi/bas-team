@@ -1,7 +1,7 @@
 <template>
   <footer class="bg-black text-white pb-8 pt-14 lg:pt-20">
     <div
-      class="container mx-auto lg:max-w-none 2xl:pl-14/100 flex flex-wrap max-lg:flex-col"
+      class="container mx-auto lg:max-w-none xl:pl-6/100 2xl:pl-14/100 flex flex-wrap max-lg:flex-col"
     >
       <div
         class="flex flex-col lg:flex-row lg:items-center lg:w-49/100 2xl:w-44/100 lg:pb-20"

@@ -110,18 +110,11 @@
 
 @font-face {
   font-family: 'icomoon';
-
-  src: url(/_nuxt/fonts/icomoon.9d57216.eot);
-
-  src: url(/_nuxt/fonts/icomoon.9d57216.eot#iefix) format('embedded-opentype'),
-    url(/_nuxt/fonts/icomoon.3519be8.ttf) format('truetype'),
-    url(/_nuxt/fonts/icomoon.57a9ecb.woff) format('woff'),
-    url(/_nuxt/img/icomoon.1dbdd46.svg#icomoon) format('svg');
-
+  src:
+    url('~/assets/icon/icomoon.ttf') format('truetype'),
+    url('~/assets/icon/icomoon.woff') format('woff');
   font-weight: 400;
-
   font-style: normal;
-
   font-display: block;
 }
 
