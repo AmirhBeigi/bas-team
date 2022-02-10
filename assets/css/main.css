@@ -1379,3 +1379,37 @@
 footer .icon-arrow-right:before {
   font-weight: 700;
 }
+
+
+.grid-item:after {
+  content: "";
+  padding-bottom: 100%;
+}
+
+
+@media (max-width: 767px) {
+  .max-md\:pb-10 {
+    padding-bottom: 2.5rem;
+  }
+}
+
+.text-mobile-wide {
+  font-size: 6.7vw;
+  line-height: 2.5em;
+  letter-spacing: 17.5px;
+}
+
+@media (min-width: 1024px) {
+  .lg\:mb-16 {
+    margin-bottom: 4rem;
+  }
+
+  .lg\:text-5xl {
+    font-size: 4.25rem;
+    line-height: 2.18;
+  }
+
+  .lg\:tracking-insane {
+    letter-spacing: 6.7vw;
+  }
+}

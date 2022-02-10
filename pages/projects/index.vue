@@ -1,6 +1,6 @@
 <template>
   <div class="bg-black">
-    <TheHeader />
+    <!-- <TheHeader /> -->
     <div class="projects-page bg-black text-white py-28 xl:py-36">
       <section>
         <div
@@ -1303,7 +1303,7 @@
         </div>
       </section>
     </div>
-    <TheFooter />
+    <!-- <TheFooter /> -->
   </div>
 </template>
 
