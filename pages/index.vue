@@ -1,6 +1,6 @@
 <template>
   <div class="bg-black">
-    <TheHeader />
+    <!-- <TheHeader /> -->
     <div class="bg-black text-white">
       <section class="relative grid-section lg:h-screen">
         <div
@@ -27,227 +27,55 @@
               ></span>
             </h1>
           </div>
-          <div data-v-50f1f4e2="" class="lg:w-3/5 lg:max-w-214">
-            <div data-v-50f1f4e2="">
+          <div class="lg:w-3/5 lg:max-w-214">
+            <div>
               <span
                 v-gsap.to="{
-                  opacity: '1',
                   visibility: 'inherit',
-                  duration: 3,
+                  opacity: 1,
+                  duration: 2,
                 }"
-                data-v-50f1f4e2=""
-                data-reveal-after=""
+                data-reveal-after
               >
-                <img
-                  data-v-50f1f4e2=""
-                  src="https://admin.skira.hr/wp-content/uploads/2021/07/matrix-det-4.jpg"
-                  alt="matrix-det-4"
-                  class="absolute w-full h-full object-cover z-0 top-0 left-0 lg:h-screen"
-                  style="display: none"
-                />
-                <img
-                  data-v-50f1f4e2=""
-                  src="https://admin.skira.hr/wp-content/uploads/2021/09/evolution-tower-moscow.jpg"
-                  alt="evolution tower moscow"
-                  class="absolute w-full h-full object-cover z-0 top-0 left-0 lg:h-screen"
-                  style="display: none"
-                />
-                <img
-                  data-v-50f1f4e2=""
-                  src="https://admin.skira.hr/wp-content/uploads/2021/08/alhambra.jpg"
-                  alt="alhambra"
-                  class="absolute w-full h-full object-cover z-0 top-0 left-0 lg:h-screen"
-                  style="display: none"
-                />
-                <img
-                  data-v-50f1f4e2=""
-                  src="https://admin.skira.hr/wp-content/uploads/2021/07/crveni-Mjesec-nad-Uljanikom-10x7_foto-Luka-Pretegiani-1.jpg"
-                  alt="crveni Mjesec nad Uljanikom 10x7_foto Luka Pretegiani"
-                  class="absolute w-full h-full object-cover z-0 top-0 left-0 lg:h-screen"
-                  style="display: none"
-                />
-                <img
-                  data-v-50f1f4e2=""
-                  src="https://admin.skira.hr/wp-content/uploads/2021/09/hendrix-bridge-zagreb-hendrixov-most-1.jpg"
-                  alt="hendrix bridge zagreb hendrixov most"
-                  class="absolute w-full h-full object-cover z-0 top-0 left-0 lg:h-screen"
-                  style="display: none"
-                />
-                <img
-                  data-v-50f1f4e2=""
-                  src="https://admin.skira.hr/wp-content/uploads/2021/09/eurasia-tunel.jpg"
-                  alt="eurasia tunel"
-                  class="absolute w-full h-full object-cover z-0 top-0 left-0 lg:h-screen"
-                  style="display: none"
-                />
-                <img
-                  data-v-50f1f4e2=""
-                  src="https://admin.skira.hr/wp-content/uploads/2021/09/four-seasons-1.jpg"
-                  alt="four seasons 1"
-                  class="absolute w-full h-full object-cover z-0 top-0 left-0 lg:h-screen"
-                  style="display: none"
-                />
-                <img
-                  data-v-50f1f4e2=""
-                  src="https://admin.skira.hr/wp-content/uploads/2021/12/dsc_9700_51716257152_o.jpg"
-                  alt="dsc_9700_51716257152_o"
-                  class="absolute w-full h-full object-cover z-0 top-0 left-0 lg:h-screen"
-                />
+                <transition-group name="fade">
+                  <img
+                    v-for="(item, i) in slides"
+                    v-show="isHovering[i]"
+                    :key="item.id"
+                    :src="item.image"
+                    :alt="item.title"
+                    class="absolute w-full h-full object-cover z-0 top-0 left-0 lg:h-screen"
+                  />
+                </transition-group>
               </span>
-              <div
-                data-v-50f1f4e2=""
-                class="grid grid-flow-col grid-cols-4 grid-rows-2"
-              >
+              <div class="grid grid-flow-col grid-cols-4 grid-rows-2">
                 <div
+                  v-for="(item, i) in slides"
+                  :key="i"
                   v-gsap.to="{
                     transform: 'translate(0, -0.5rem)',
                     opacity: 1,
                     visibility: 'inherit',
                     duration: 2,
                   }"
-                  data-v-50f1f4e2=""
-                  data-dotted-square=""
-                  class="dotted-square grid-item lg:-ml-1 lg:-mt-1 flex items-center justify-center z-10"
+                  data-dotted-square
+                  :class="[
+                    'dotted-square grid-item lg:-ml-1 lg:-mt-1 flex items-center justify-center z-10',
+                    { 'bg-black': isHovering[i] },
+                  ]"
+                  @mouseover="
+                    isHovering = []
+                    $set(isHovering, i, true)
+                  "
                 >
                   <p
-                    data-v-50f1f4e2=""
-                    data-dotted-text=""
-                    class="uppercase text-item text-sm tracking-widest px-10 text-center"
+                    data-dotted-text
+                    :class="[
+                      'uppercase text-item text-sm tracking-widest px-10 text-center',
+                      { show: isHovering[i] },
+                    ]"
                   >
-                    Matrix
-                  </p>
-                </div>
-                <div
-                  v-gsap.to="{
-                    transform: 'translate(0, -0.5rem)',
-                    opacity: 1,
-                    visibility: 'inherit',
-                    duration: 2,
-                  }"
-                  data-v-50f1f4e2=""
-                  data-dotted-square=""
-                  class="dotted-square grid-item lg:-ml-1 lg:-mt-1 flex items-center justify-center z-10"
-                >
-                  <p
-                    data-v-50f1f4e2=""
-                    data-dotted-text=""
-                    class="uppercase text-item text-sm tracking-widest px-10 text-center"
-                  >
-                    Evolution Tower
-                  </p>
-                </div>
-                <div
-                  v-gsap.to="{
-                    transform: 'translate(0, -0.5rem)',
-                    opacity: 1,
-                    visibility: 'inherit',
-                    duration: 2,
-                  }"
-                  data-v-50f1f4e2=""
-                  data-dotted-square=""
-                  class="dotted-square grid-item lg:-ml-1 lg:-mt-1 flex items-center justify-center z-10"
-                >
-                  <p
-                    data-v-50f1f4e2=""
-                    data-dotted-text=""
-                    class="uppercase text-item text-sm tracking-widest px-10 text-center"
-                  >
-                    Hotel Alhambra
-                  </p>
-                </div>
-                <div
-                  v-gsap.to="{
-                    transform: 'translate(0, -0.5rem)',
-                    opacity: 1,
-                    visibility: 'inherit',
-                    duration: 2,
-                  }"
-                  data-v-50f1f4e2=""
-                  data-dotted-square=""
-                  class="dotted-square grid-item lg:-ml-1 lg:-mt-1 flex items-center justify-center z-10"
-                >
-                  <p
-                    data-v-50f1f4e2=""
-                    data-dotted-text=""
-                    class="uppercase text-item text-sm tracking-widest px-10 text-center"
-                  >
-                    Lighting Giants
-                  </p>
-                </div>
-                <div
-                  v-gsap.to="{
-                    transform: 'translate(0, -0.5rem)',
-                    opacity: 1,
-                    visibility: 'inherit',
-                    duration: 2,
-                  }"
-                  data-v-50f1f4e2=""
-                  data-dotted-square=""
-                  class="dotted-square grid-item lg:-ml-1 lg:-mt-1 flex items-center justify-center z-10"
-                >
-                  <p
-                    data-v-50f1f4e2=""
-                    data-dotted-text=""
-                    class="uppercase text-item text-sm tracking-widest px-10 text-center"
-                  >
-                    Hendrix Bridge
-                  </p>
-                </div>
-                <div
-                  v-gsap.to="{
-                    transform: 'translate(0, -0.5rem)',
-                    opacity: 1,
-                    visibility: 'inherit',
-                    duration: 2,
-                  }"
-                  data-v-50f1f4e2=""
-                  data-dotted-square=""
-                  class="dotted-square grid-item lg:-ml-1 lg:-mt-1 flex items-center justify-center z-10"
-                >
-                  <p
-                    data-v-50f1f4e2=""
-                    data-dotted-text=""
-                    class="uppercase text-item text-sm tracking-widest px-10 text-center"
-                  >
-                    Eurasia Tunnel
-                  </p>
-                </div>
-                <div
-                  v-gsap.to="{
-                    transform: 'translate(0, -0.5rem)',
-                    opacity: 1,
-                    visibility: 'inherit',
-                    duration: 2,
-                  }"
-                  data-v-50f1f4e2=""
-                  data-dotted-square=""
-                  class="dotted-square grid-item lg:-ml-1 lg:-mt-1 flex items-center justify-center z-10"
-                >
-                  <p
-                    data-v-50f1f4e2=""
-                    data-dotted-text=""
-                    class="uppercase text-item text-sm tracking-widest px-10 text-center"
-                  >
-                    Four Seasons Hotel
-                  </p>
-                </div>
-                <div
-                  v-gsap.to="{
-                    transform: 'translate(0, -0.5rem)',
-                    opacity: 1,
-                    visibility: 'inherit',
-                    duration: 2,
-                  }"
-                  data-v-50f1f4e2=""
-                  data-dotted-square=""
-                  class="dotted-square grid-item lg:-ml-1 lg:-mt-1 flex items-center justify-center z-10 bg-black"
-                >
-                  <p
-                    data-v-50f1f4e2=""
-                    data-dotted-text=""
-                    class="uppercase text-item text-sm tracking-widest px-10 text-center show"
-                  >
-                    Zerostrasse
+                    {{ item.title }}
                   </p>
                 </div>
               </div>
@@ -262,5 +90,60 @@
 <script>
 export default {
   name: 'IndexPage',
+  data() {
+    return {
+      slides: [
+        {
+          id: 1,
+          title: 'Matrix',
+          image:
+            'https://admin.skira.hr/wp-content/uploads/2021/07/matrix-det-4.jpg',
+        },
+        {
+          id: 2,
+          title: 'Evolution Tower',
+          image:
+            'https://admin.skira.hr/wp-content/uploads/2021/09/evolution-tower-moscow.jpg',
+        },
+        {
+          id: 3,
+          title: 'Hotel Alhambra',
+          image:
+            'https://admin.skira.hr/wp-content/uploads/2021/08/alhambra.jpg',
+        },
+        {
+          id: 4,
+          title: 'Lighting Giants',
+          image:
+            'https://admin.skira.hr/wp-content/uploads/2021/07/crveni-Mjesec-nad-Uljanikom-10x7_foto-Luka-Pretegiani-1.jpg',
+        },
+        {
+          id: 5,
+          title: 'Hendrix Bridge',
+          image:
+            'https://admin.skira.hr/wp-content/uploads/2021/09/hendrix-bridge-zagreb-hendrixov-most-1.jpg',
+        },
+        {
+          id: 6,
+          title: 'Eurasia Tunnel',
+          image:
+            'https://admin.skira.hr/wp-content/uploads/2021/09/eurasia-tunel.jpg',
+        },
+        {
+          id: 7,
+          title: 'Four Seasons Hotel',
+          image:
+            'https://admin.skira.hr/wp-content/uploads/2021/09/four-seasons-1.jpg',
+        },
+        {
+          id: 8,
+          title: 'Zerostrasse',
+          image:
+            'https://admin.skira.hr/wp-content/uploads/2021/12/dsc_9700_51716257152_o.jpg',
+        },
+      ],
+      isHovering: [],
+    }
+  },
 }
 </script>

@@ -1413,3 +1413,18 @@ footer .icon-arrow-right:before {
     letter-spacing: 6.7vw;
   }
 }
+
+.\31xl\:text-6xl {
+  font-size: 5rem;
+  line-height: 1.225;
+}
+
+
+.text-item {
+  opacity: 0;
+}
+
+.text-item.show {
+  visibility: visible;
+  opacity: 1;
+}

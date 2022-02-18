@@ -1,102 +1,62 @@
 <template>
-  <div class="bg-black">
-    <TheHeader />
-    <div class="bg-black text-white pt-20 lg:pt-28 xl:pt-56">
-      <section class="pb-12 lg:pb-16 xl:-mb-20">
+  <div class="bg-black h-screen">
+    <!-- <TheHeader /> -->
+    <div class="contact-page bg-black text-white py-28 xl:py-36">
+      <section>
         <div
-          class="container max-w-none max-lg:mx-auto lg:ml-auto px-0 xl:pl-6/100 2xl:pl-14/100"
+          class="container mx-auto xl:px-0 lg:max-w-none xl:w-88/100 2xl:w-72/100 flex flex-col justify-center items-center text-white"
         >
-          <div
+          <h1
             v-gsap.to="{
               opacity: '1',
               visibility: 'inherit',
+              color: 'white',
+              'text-shadow': 'white 0 0 10',
+              duration: 3,
             }"
-            data-fade-in-el
-            class="flex flex-col lg:flex-row-reverse lg:items-center xl:items-start"
+            class="text-mobile-wide blurred-text fullwidth-centered-text lg:text-5xl lg:tracking-insane font-light uppercase lg:mb-16 relative z-10"
+            data-blurred-text
           >
-            <div class="lg:w-1/2 xl:w-3/5">
-              <img
-                src="https://admin.skira.hr/wp-content/uploads/2021/08/LUM6.jpg"
-                alt="LUM6"
-              />
-            </div>
-            <div
-              class="px-6 sm:px-8 xl:pl-0 pt-16 mx-auto lg:pt-0 lg:w-1/2 xl:w-2/5 xs:max-w-screen-xs sm:max-w-screen-sm md:max-w-screen-md lg:max-w-none"
+            Contact
+          </h1>
+        </div>
+      </section>
+      <section class="contact-section py-12 lg:py-16">
+        <div class="container mx-auto lg:max-w-none xl:px-0 lg:w-93/100">
+          <div class="grid grid-cols-1 gap-12 lg:grid-cols-3 lg:gap-32">
+            <button
+              class="border-b border-[#65C18C] hover:bg-[#E1306C] hover:border-transparent transition p-2 font-light uppercase"
             >
-              <h2 class="uppercase text-sm lg:text-lg tracking-widest">
-                Contact
-              </h2>
-              <h1 class="font-light text-4xl xl:text-6xl mt-4 mb-10">
-                Let's connect
-              </h1>
-              <div class="flex flex-wrap -mx-4">
-                <div class="w-1/2 mb-10 px-4">
-                  <span
-                    class="text-xs uppercase opacity-50 tracking-widest block"
-                    >Company</span
-                  >
-                  <span
-                    class="block font-light text-lg xl:text-xl tracking-wider"
-                    >Skira d.o.o.</span
-                  >
-                </div>
-                <div class="w-1/2 mb-10 px-4">
-                  <span
-                    class="text-xs uppercase opacity-50 tracking-widest block"
-                    >Phone</span
-                  >
-                  <a
-                    href="tel:+385 52 535 940"
-                    data-border-anim=""
-                    class="block font-light text-lg xl:text-xl tracking-wider"
-                    >+385 52 535 940</a
-                  >
-                </div>
-                <div class="w-1/2 mb-10 px-4">
-                  <span
-                    class="text-xs uppercase opacity-50 tracking-widest block"
-                    >Address</span
-                  >
-                  <span
-                    class="block font-light text-lg xl:text-xl tracking-wider"
-                    >Veruda 60b, 52100 Pula, Croatia</span
-                  >
-                  <a
-                    href="https://goo.gl/maps/d4B9JXMTUZXV3vzcA"
-                    target="_blank"
-                    data-border-anim="0"
-                    class="block font-light text-lg xl:text-xl tracking-wider leading-tight"
-                    >View on map</a
-                  >
-                </div>
-                <div class="w-1/2 mb-10 px-4">
-                  <span
-                    class="text-xs uppercase opacity-50 tracking-widest block"
-                    >Email</span
-                  >
-                  <a
-                    href="mailto:info@skira.hr            "
-                    data-border-anim=""
-                    class="block font-light text-lg xl:text-xl tracking-wider"
-                    >info@skira.hr
-                  </a>
-                </div>
-                <div class="w-1/2 px-4">
-                  <span
-                    class="text-xs uppercase opacity-50 tracking-widest block"
-                    >Local time</span
-                  >
-                  <span
-                    class="block font-light text-lg xl:text-xl tracking-wider whitespace-nowrap"
-                    >15:05 CEST UTC/GMT +2 hours</span
-                  >
-                </div>
-              </div>
-            </div>
+              Instagram
+            </button>
+            <button
+              class="border-b border-[#65C18C] hover:bg-[#70b5f9] hover:border-transparent transition p-2 font-light uppercase"
+            >
+              LinkedIn
+            </button>
+            <button
+              class="border-b border-[#65C18C] hover:bg-[#1d9bf0] hover:border-transparent transition p-2 font-light uppercase"
+            >
+              Twitter
+            </button>
+            <button
+              class="border-b border-[#65C18C] hover:bg-[#191919] hover:border-transparent transition p-2 font-light uppercase"
+            >
+              Behance
+            </button>
+            <button
+              class="border-b border-[#65C18C] hover:bg-[#ea4c89] hover:border-transparent transition p-2 font-light uppercase"
+            >
+              Dribbble
+            </button>
+            <button
+              class="border-b border-[#65C18C] hover:bg-[#e60023] hover:border-transparent transition p-2 font-light uppercase"
+            >
+              Pintrest
+            </button>
           </div>
         </div>
       </section>
-      <TheFooter />
     </div>
   </div>
 </template>
