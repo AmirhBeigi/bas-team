@@ -1,7 +1,30 @@
 <template>
   <div class="bg-black">
-    <!-- <TheHeader /> -->
+    <TheHeader />
     <div class="bg-black text-white">
+      <div
+        v-if="$device.isMobile"
+        class="text-white relative mobile-slider pb-12 pt-20"
+      >
+        <VueSlickCarousel v-bind="slickOptions">
+          <div v-for="slide in slides" :key="slide.id">
+            <img :src="slide.image" class="h-74 mx-auto object-cover" />
+            <h5
+              data-v-e4caeaf8=""
+              class="text-sm tracking-widest uppercase text-center mt-10 pr-6 sm:pr-8"
+            >
+              {{ slide.title }}
+            </h5>
+          </div>
+        </VueSlickCarousel>
+        <div
+          class="flex items-center justify-between absolute w-full mt-9 px-6 top-96"
+        >
+          <button class="icon-arrow-left text-2xl" @click="showPrev"></button>
+          <button class="icon-arrow-right text-2xl" @click="showNext"></button>
+        </div>
+      </div>
+
       <section class="relative grid-section lg:h-screen">
         <div
           class="container mx-auto max-lg:pr-0 lg:max-w-none flex flex-col lg:flex-row justify-center items-center h-full"
@@ -27,7 +50,7 @@
               ></span>
             </h1>
           </div>
-          <div class="lg:w-3/5 lg:max-w-214">
+          <div v-if="!$device.isMobile" class="lg:w-3/5 lg:max-w-214">
             <div>
               <span
                 v-gsap.to="{
@@ -92,6 +115,15 @@ export default {
   name: 'IndexPage',
   data() {
     return {
+      slickOptions: {
+        arrows: false,
+        fade: true,
+        infinite: true,
+        speed: 500,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        ref: 'carousel',
+      },
       slides: [
         {
           id: 1,
@@ -144,6 +176,14 @@ export default {
       ],
       isHovering: [],
     }
+  },
+  methods: {
+    showNext() {
+      this.$refs.carousel.next()
+    },
+    showPrev() {
+      this.$refs.carousel.prev()
+    },
   },
 }
 </script>

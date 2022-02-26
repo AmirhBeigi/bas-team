@@ -13,15 +13,27 @@ export default {
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
   },
-  css: ['@/assets/css/main.css'],
-  plugins: [{ src: '~/plugins/masonry', mode: 'client' }],
+  css: [
+    'vue-slick-carousel/dist/vue-slick-carousel.css',
+    '@/assets/css/main.css',
+  ],
+  plugins: [
+    { src: '~/plugins/masonry', mode: 'client' },
+    {
+      src: './plugins/vue-slick-carousel.js',
+    },
+  ],
   components: true,
   buildModules: [
     '@nuxtjs/eslint-module',
     '@nuxtjs/stylelint-module',
     'nuxt-gsap-module',
     '@nuxt/postcss8',
+    '@nuxtjs/device',
   ],
+  device: {
+    refreshOnResize: true,
+  },
   build: {
     postcss: {
       plugins: {
