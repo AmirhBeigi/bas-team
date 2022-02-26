@@ -2,10 +2,7 @@
   <div
     id="header"
     :class="[
-      'fixed top-0 left-0 w-full z-30 nav-overwrapper transition-colors duration-500',
-      {
-        'bg-black': $device.isMobile,
-      },
+      'fixed top-0 left-0 w-full z-30 nav-overwrapper transition-colors duration-500 bg-black',
     ]"
     data-nav-wrapper
   >
