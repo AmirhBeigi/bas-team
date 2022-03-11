@@ -50,7 +50,7 @@
               ></span>
             </h1>
           </div>
-          <div v-if="!$device.isMobile" class="lg:w-3/5 lg:max-w-214">
+          <div v-if="!$device.isMobile" class="lg:w-3/6 lg:max-w-214">
             <div>
               <span
                 v-gsap.to="{
@@ -71,7 +71,7 @@
                   />
                 </transition-group>
               </span>
-              <div class="grid grid-flow-col grid-cols-4 grid-rows-2">
+              <div class="grid grid-flow-col grid-cols-3 grid-rows-2">
                 <div
                   v-for="(item, i) in slides"
                   :key="i"
@@ -84,8 +84,10 @@
                   data-dotted-square
                   :class="[
                     'dotted-square grid-item lg:-ml-1 lg:-mt-1 flex items-center justify-center z-10',
-                    { 'bg-black': isHovering[i] },
                   ]"
+                  :style="{
+                    background: isHovering[i] && item.color,
+                  }"
                   @mouseover="
                     isHovering = []
                     $set(isHovering, i, true)
@@ -128,50 +130,44 @@ export default {
         {
           id: 1,
           title: 'Matrix',
+          color: '#ff3e3e',
           image:
             'https://admin.skira.hr/wp-content/uploads/2021/07/matrix-det-4.jpg',
         },
         {
           id: 2,
           title: 'Evolution Tower',
+          color: '#3052cf',
           image:
             'https://admin.skira.hr/wp-content/uploads/2021/09/evolution-tower-moscow.jpg',
         },
         {
           id: 3,
           title: 'Hotel Alhambra',
+          color: '#59c1b7',
           image:
             'https://admin.skira.hr/wp-content/uploads/2021/08/alhambra.jpg',
         },
         {
           id: 4,
           title: 'Lighting Giants',
+          color: '#ff3e3e',
           image:
             'https://admin.skira.hr/wp-content/uploads/2021/07/crveni-Mjesec-nad-Uljanikom-10x7_foto-Luka-Pretegiani-1.jpg',
         },
         {
           id: 5,
           title: 'Hendrix Bridge',
+          color: '#59c1b7',
           image:
             'https://admin.skira.hr/wp-content/uploads/2021/09/hendrix-bridge-zagreb-hendrixov-most-1.jpg',
         },
         {
           id: 6,
           title: 'Eurasia Tunnel',
+          color: '#3052cf',
           image:
             'https://admin.skira.hr/wp-content/uploads/2021/09/eurasia-tunel.jpg',
-        },
-        {
-          id: 7,
-          title: 'Four Seasons Hotel',
-          image:
-            'https://admin.skira.hr/wp-content/uploads/2021/09/four-seasons-1.jpg',
-        },
-        {
-          id: 8,
-          title: 'Zerostrasse',
-          image:
-            'https://admin.skira.hr/wp-content/uploads/2021/12/dsc_9700_51716257152_o.jpg',
         },
       ],
       isHovering: [],

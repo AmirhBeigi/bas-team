@@ -2,6 +2,138 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: dana;
+  font-style: normal;
+  font-weight: 10;
+  src: url('~assets/fonts/eot/dana-thin.eot');
+  src: url('~assets/fonts/eot/dana-thin.eot?#iefix') format('embedded-opentype'),
+    /* IE6-8 */ url('~assets/fonts/woff2/dana-thin.woff2') format('woff2'),
+    /* FF39+,Chrome36+, Opera24+*/ url('~assets/fonts/woff/dana-thin.woff')
+      format('woff');
+  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+
+@font-face {
+  font-family: dana;
+  font-style: normal;
+  font-weight: 200;
+  src: url('~assets/fonts/eot/dana-extralight.eot');
+  src: url('~assets/fonts/eot/dana-extralight.eot?#iefix')
+      format('embedded-opentype'),
+    /* IE6-8 */ url('~assets/fonts/woff2/dana-extralight.woff2') format('woff2'),
+    /* FF39+,Chrome36+, Opera24+*/
+      url('~assets/fonts/woff/dana-extralight.woff') format('woff');
+  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+
+@font-face {
+  font-family: dana;
+  font-style: normal;
+  font-weight: 300;
+  src: url('~assets/fonts/eot/dana-light.eot');
+  src: url('~assets/fonts/eot/dana-light.eot?#iefix')
+      format('embedded-opentype'),
+    /* IE6-8 */ url('~assets/fonts/woff2/dana-light.woff2') format('woff2'),
+    /* FF39+,Chrome36+, Opera24+*/ url('~assets/fonts/woff/dana-light.woff')
+      format('woff');
+  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+
+@font-face {
+  font-family: dana;
+  font-style: normal;
+  font-weight: 500;
+  src: url('~assets/fonts/eot/dana-medium.eot');
+  src: url('~assets/fonts/eot/dana-medium.eot?#iefix')
+      format('embedded-opentype'),
+    /* IE6-8 */ url('~assets/fonts/woff2/dana-medium.woff2') format('woff2'),
+    /* FF39+,Chrome36+, Opera24+*/ url('~assets/fonts/woff/dana-medium.woff')
+      format('woff');
+  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+
+@font-face {
+  font-family: dana;
+  font-style: normal;
+  font-weight: 600;
+  src: url('~assets/fonts/eot/dana-demibold.eot');
+  src: url('~assets/fonts/eot/dana-demibold.eot?#iefix')
+      format('embedded-opentype'),
+    /* IE6-8 */ url('~assets/fonts/woff2/dana-demibold.woff2') format('woff2'),
+    /* FF39+,Chrome36+, Opera24+*/ url('~assets/fonts/woff/dana-demibold.woff')
+      format('woff');
+  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+
+@font-face {
+  font-family: dana;
+  font-style: normal;
+  font-weight: 750;
+  src: url('~assets/fonts/eot/dana-ultrabold.eot');
+  src: url('~assets/fonts/eot/dana-ultrabold.eot?#iefix')
+      format('embedded-opentype'),
+    /* IE6-8 */ url('~assets/fonts/woff2/dana-ultrabold.woff2') format('woff2'),
+    /* FF39+,Chrome36+, Opera24+*/ url('~assets/fonts/woff/dana-ultrabold.woff')
+      format('woff');
+  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+
+@font-face {
+  font-family: dana;
+  font-style: normal;
+  font-weight: 800;
+  src: url('~assets/fonts/eot/dana-extrabold.eot');
+  src: url('~assets/fonts/eot/dana-extrabold.eot?#iefix')
+      format('embedded-opentype'),
+    /* IE6-8 */ url('~assets/fonts/woff2/dana-extrabold.woff2') format('woff2'),
+    /* FF39+,Chrome36+, Opera24+*/ url('~assets/fonts/woff/dana-extrabold.woff')
+      format('woff');
+  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+
+@font-face {
+  font-family: dana;
+  font-style: normal;
+  font-weight: 900;
+  src: url('~assets/fonts/eot/dana-black.eot');
+  src: url('~assets/fonts/eot/dana-black.eot?#iefix')
+      format('embedded-opentype'),
+    /* IE6-8 */ url('~assets/fonts/woff2/dana-black.woff2') format('woff2'),
+    /* FF39+,Chrome36+, Opera24+*/ url('~assets/fonts/woff/dana-black.woff')
+      format('woff');
+  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+
+@font-face {
+  font-family: dana;
+  font-style: normal;
+  font-weight: bold;
+  src: url('~assets/fonts/eot/dana-bold.eot');
+  src: url('~assets/fonts/eot/dana-bold.eot?#iefix') format('embedded-opentype'),
+    /* IE6-8 */ url('~assets/fonts/woff2/dana-bold.woff2') format('woff2'),
+    /* FF39+,Chrome36+, Opera24+*/ url('~assets/fonts/woff/dana-bold.woff')
+      format('woff');
+  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+
+@font-face {
+  font-family: dana;
+  font-style: normal;
+  font-weight: normal;
+  src: url('~assets/fonts/eot/dana-regular.eot');
+  src: url('~assets/fonts/eot/dana-regular.eot?#iefix')
+      format('embedded-opentype'),
+    /* IE6-8 */ url('~assets/fonts/woff2/dana-regular.woff2') format('woff2'),
+    /* FF39+,Chrome36+, Opera24+*/ url('~assets/fonts/woff/dana-regular.woff')
+      format('woff');
+  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+
+* {
+  font-family: dana;
+}
+
 .hamburger {
   padding: 0px;
   display: inline-block;
@@ -110,8 +242,7 @@
 
 @font-face {
   font-family: 'icomoon';
-  src:
-    url('~/assets/icon/icomoon.ttf') format('truetype'),
+  src: url('~/assets/icon/icomoon.ttf') format('truetype'),
     url('~/assets/icon/icomoon.woff') format('woff');
   font-weight: 400;
   font-style: normal;
@@ -314,12 +445,17 @@
 }
 
 .dotted-square {
-  background-image: radial-gradient(circle at center, #fff 2px, transparent 0),
-    radial-gradient(circle at center, #fff 2px, transparent 0),
-    radial-gradient(circle at center, #fff 2px, transparent 0),
-    radial-gradient(circle at center, #fff 2px, transparent 0);
-  background-position: 0 0, 100% 0, 0 100%, 100% 100%;
+  background-image: radial-gradient(
+      circle at center,
+      rgb(34, 228, 76) 2px,
+      transparent 0
+    ),
+    radial-gradient(circle at center, rgb(34, 228, 76) 2px, transparent 0),
+    radial-gradient(circle at center, rgb(34, 228, 76) 2px, transparent 0),
+    radial-gradient(circle at center, rgb(34, 228, 76) 2px, transparent 0);
+  background-position: 50% 100%, 50% 0, 0 50%, 100%;
   background-size: 4px 4px;
+  border-radius: 100%;
   background-repeat: no-repeat;
   will-change: transform;
   transition-property: background-color, border-color, color, fill, stroke;
@@ -405,29 +541,28 @@
   margin-bottom: 1rem;
 }
 
-.richtext ol+h2,
-.richtext ol+h3,
-.richtext ol+h4,
-.richtext p+h2,
-.richtext p+h3,
-.richtext p+h4,
-.richtext ul+h2,
-.richtext ul+h3,
-.richtext ul+h4 {
+.richtext ol + h2,
+.richtext ol + h3,
+.richtext ol + h4,
+.richtext p + h2,
+.richtext p + h3,
+.richtext p + h4,
+.richtext ul + h2,
+.richtext ul + h3,
+.richtext ul + h4 {
   margin-top: 1.5rem;
 }
 
 @media (min-width: 1024px) {
-
-  .richtext ol+h2,
-  .richtext ol+h3,
-  .richtext ol+h4,
-  .richtext p+h2,
-  .richtext p+h3,
-  .richtext p+h4,
-  .richtext ul+h2,
-  .richtext ul+h3,
-  .richtext ul+h4 {
+  .richtext ol + h2,
+  .richtext ol + h3,
+  .richtext ol + h4,
+  .richtext p + h2,
+  .richtext p + h3,
+  .richtext p + h4,
+  .richtext ul + h2,
+  .richtext ul + h3,
+  .richtext ul + h4 {
     margin-top: 3rem;
   }
 }
@@ -498,7 +633,6 @@
 }
 
 @media (min-width: 1024px) {
-
   .diary-detail-page .richtext p,
   .privacy-page .richtext p {
     font-size: 1.25rem;
@@ -515,7 +649,6 @@
 }
 
 @media (min-width: 1024px) {
-
   .diary-detail-page .richtext h2,
   .privacy-page .richtext h2 {
     font-size: 5rem;
@@ -532,7 +665,6 @@
 }
 
 @media (min-width: 1024px) {
-
   .diary-detail-page .richtext h3,
   .privacy-page .richtext h3 {
     font-size: 2.5rem;
@@ -553,7 +685,6 @@
 }
 
 @media (min-width: 1024px) {
-
   .diary-detail-page .richtext h4,
   .diary-detail-page .richtext h5,
   .diary-detail-page .richtext h6,
@@ -653,7 +784,7 @@
 }
 
 .mobile-slider-with-bg .slick-list,
-.mobile-slider-with-bg .slick-slide>div,
+.mobile-slider-with-bg .slick-slide > div,
 .mobile-slider-with-bg .slick-slider,
 .mobile-slider-with-bg .slick-track {
   height: 100%;
@@ -888,7 +1019,7 @@
   background-color: var(--cookie-control-barButtonHoverBackground);
 }
 
-.cookieControl__Bar button+button {
+.cookieControl__Bar button + button {
   margin-left: 10px;
 }
 
@@ -991,7 +1122,7 @@
   background-color: var(--cookie-control-modalOverlay);
 }
 
-.cookieControl__Modal>div {
+.cookieControl__Modal > div {
   font-size: medium;
   padding-top: 80px;
 }
@@ -1043,7 +1174,7 @@
   padding: 5px 56px 0;
 }
 
-.cookieControl__ModalContent ul ul li+li {
+.cookieControl__ModalContent ul ul li + li {
   margin-top: 5px;
 }
 
@@ -1051,7 +1182,7 @@
   align-items: center;
 }
 
-.cookieControl__ModalContent li+li {
+.cookieControl__ModalContent li + li {
   margin-top: 20px;
 }
 
@@ -1059,20 +1190,20 @@
   display: none;
 }
 
-.cookieControl__ModalContent input:checked+label {
+.cookieControl__ModalContent input:checked + label {
   background-color: var(--cookie-control-checkboxActiveBackground);
 }
 
-.cookieControl__ModalContent input:checked+label:before {
+.cookieControl__ModalContent input:checked + label:before {
   background-color: var(--cookie-control-checkboxActiveCircleBackground);
   transform: translate3d(100%, -50%, 0);
 }
 
-.cookieControl__ModalContent input:checked:disabled+label {
+.cookieControl__ModalContent input:checked:disabled + label {
   background-color: var(--cookie-control-checkboxDisabledBackground);
 }
 
-.cookieControl__ModalContent input:checked:disabled+label:before {
+.cookieControl__ModalContent input:checked:disabled + label:before {
   background-color: var(--cookie-control-checkboxDisabledCircleBackground);
 }
 
@@ -1130,7 +1261,7 @@
   align-items: flex-start;
 }
 
-.cookieControl__ModalButtons button+button {
+.cookieControl__ModalButtons button + button {
   margin-left: 20px;
 }
 
@@ -1380,12 +1511,10 @@ footer .icon-arrow-right:before {
   font-weight: 700;
 }
 
-
 .grid-item:after {
-  content: "";
+  content: '';
   padding-bottom: 100%;
 }
-
 
 @media (max-width: 767px) {
   .max-md\:pb-10 {
@@ -1418,7 +1547,6 @@ footer .icon-arrow-right:before {
   font-size: 5rem;
   line-height: 1.225;
 }
-
 
 .text-item {
   opacity: 0;

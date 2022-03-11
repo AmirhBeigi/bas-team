@@ -1,6 +1,6 @@
 <template>
   <div class="bg-white">
-    <!-- <TheHeader /> -->
+    <TheHeader :is-light="true" />
     <div class="projects-page text-black py-28 xl:py-36">
       <section>
         <div

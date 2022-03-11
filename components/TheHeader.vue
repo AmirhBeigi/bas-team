@@ -2,7 +2,8 @@
   <div
     id="header"
     :class="[
-      'fixed top-0 left-0 w-full z-30 nav-overwrapper transition-colors duration-500 bg-black',
+      'fixed top-0 left-0 w-full z-30 nav-overwrapper transition-colors duration-500',
+      { sticky: isSticky, invert: isLight },
     ]"
     data-nav-wrapper
   >
@@ -11,7 +12,11 @@
         class="logo font-light uppercase tracking-widest text-2xl lg:text-3xl text-white relative z-30 w-36 nuxt-link-active"
         to="/"
       >
-        <img :src="require('~/assets/img/bas.svg')" alt="Skira logo" />
+        <img
+          :class="['h-12']"
+          :src="require('~/assets/img/bas.svg')"
+          alt="Skira logo"
+        />
       </nuxt-link>
       <div>
         <div
@@ -40,58 +45,43 @@
             <li class="main-nav-item flex items-center" data-v-1adbb2d8="">
               <nuxt-link
                 class="text-xl tracking-wide font-light"
-                to="/profile"
-                data-link="Profile"
+                to="/"
                 data-border-anim=""
                 data-v-1adbb2d8=""
-                >Profile</nuxt-link
+                >HOME</nuxt-link
               >
             </li>
             <li class="main-nav-item flex items-center" data-v-1adbb2d8="">
               <nuxt-link
-                class="text-xl tracking-wide font-light nuxt-link-exact-active nuxt-link-active"
+                class="text-xl tracking-wide font-light"
+                to="/services"
+                data-border-anim=""
+                data-v-1adbb2d8=""
+                >SERVICES</nuxt-link
+              >
+            </li>
+            <li class="main-nav-item flex items-center" data-v-1adbb2d8="">
+              <nuxt-link
+                class="text-xl tracking-wide font-light"
                 to="/projects"
-                data-link="Projects"
                 data-border-anim=""
                 data-v-1adbb2d8=""
-                >Projects</nuxt-link
+                >PROJECTS</nuxt-link
               >
             </li>
             <li class="main-nav-item flex items-center" data-v-1adbb2d8="">
               <nuxt-link
                 class="text-xl tracking-wide font-light"
-                to="/product-design"
-                data-link="Product Design"
+                to="/about"
                 data-border-anim=""
                 data-v-1adbb2d8=""
-                >Product Design</nuxt-link
-              >
-            </li>
-            <li class="main-nav-item flex items-center" data-v-1adbb2d8="">
-              <nuxt-link
-                class="text-xl tracking-wide font-light"
-                to="/diary"
-                data-link="Diary"
-                data-border-anim=""
-                data-v-1adbb2d8=""
-                >Diary</nuxt-link
-              >
-            </li>
-            <li class="main-nav-item flex items-center" data-v-1adbb2d8="">
-              <nuxt-link
-                class="text-xl tracking-wide font-light"
-                to="/press"
-                data-link="Press"
-                data-border-anim=""
-                data-v-1adbb2d8=""
-                >Press</nuxt-link
+                >ABOUT</nuxt-link
               >
             </li>
             <li class="main-nav-item flex items-center" data-v-1adbb2d8="">
               <nuxt-link
                 class="text-xl tracking-wide font-light"
                 to="/contact"
-                data-link="Contact"
                 data-border-anim=""
                 data-v-1adbb2d8=""
                 >Contact</nuxt-link
@@ -106,10 +96,34 @@
 
 <script>
 export default {
+  props: {
+    isLight: {
+      type: Boolean,
+      default: false,
+    },
+  },
   data() {
     return {
+      isSticky: false,
       open: !this.$device.isMobile,
     }
   },
+  mounted() {
+    window.addEventListener('scroll', this.handleScroll)
+  },
+  methods: {
+    handleScroll() {
+      this.isSticky = window.scrollY > 0
+    },
+  },
 }
 </script>
+
+<style lang="scss" scoped>
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #000;
+}
+</style>

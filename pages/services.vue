@@ -20,43 +20,6 @@
           >
             Services
           </h1>
-          <div
-            v-gsap.to="{
-              opacity: '1',
-              visibility: 'inherit',
-              duration: 3,
-            }"
-            class="w-full mx-auto flex justify-center relative pb-12 lg:pb-16"
-            data-fade-in-el
-          >
-            <div class="filters" data-v-a200718e="">
-              <ul
-                class="text-white list-none flex flex-wrap justify-center -mx-3"
-                data-v-a200718e=""
-              >
-                <li class="px-3" data-v-a200718e="">
-                  <button class="active" data-border-anim="" data-v-a200718e="">
-                    <span data-v-a200718e="">All</span>
-                  </button>
-                </li>
-                <li class="px-3" data-v-a200718e="">
-                  <button data-border-anim="" data-v-a200718e="">
-                    <span data-v-a200718e="">BRABDING</span>
-                  </button>
-                </li>
-                <li class="px-3" data-v-a200718e="">
-                  <button data-border-anim="" data-v-a200718e="">
-                    <span data-v-a200718e="">ADVERTISING</span>
-                  </button>
-                </li>
-                <li class="px-3" data-v-a200718e="">
-                  <button data-border-anim="" data-v-a200718e="">
-                    <span data-v-a200718e="">SOCIAL</span>
-                  </button>
-                </li>
-              </ul>
-            </div>
-          </div>
         </div>
       </section>
       <section class="projects-section py-12 lg:py-16">

@@ -1,4 +1,4 @@
 import Vue from 'vue'
-import { VueMasonryPlugin } from 'vue-masonry'
+import VueMasonryWall from 'vue-masonry-wall'
 
-Vue.use(VueMasonryPlugin)
+Vue.use(VueMasonryWall)

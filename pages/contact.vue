@@ -1,6 +1,6 @@
 <template>
   <div class="bg-black h-screen">
-    <!-- <TheHeader /> -->
+    <TheHeader />
     <div class="contact-page bg-black text-white py-28 xl:py-36">
       <section>
         <div
